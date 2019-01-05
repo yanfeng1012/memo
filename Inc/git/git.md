@@ -1,0 +1,5 @@
+- [忽略特定文件上传](/Inc/git/git/gitignore.md)
+- [git stash 恢复本地未提交丢失文件](/Inc/git/git/gitlost.md)
+- [账户密码设置](/Inc/git/git/config.md)
+- [git .ssh](/Inc/git/git/ssh.md)
+- [window 删除凭据](/Inc/git/git/delete.md)

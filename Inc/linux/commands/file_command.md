@@ -1,0 +1,154 @@
+### 文件系统管理
+ 1. 创建和删除
+
+	 	创建：mkdir
+		删除：rm
+		删除非空目录：rm -rf file目录
+		删除日志 rm *log (等价: $find ./ -name “*log” -exec rm {} ;)
+		移动：mv
+		复制：cp (复制目录：cp -r )
+		查看当前目录下文件个数:
+			$find ./ | wc -l
+		复制目录:
+			$cp -r source_dir  dest_dir
+
+ 2. 目录切换
+
+		找到文件/目录位置：cd
+		切换到上一个工作目录： cd -
+		切换到home目录： cd or cd ~
+		显示当前路径: pwd
+		更改当前工作路径为path: $cd path
+
+ 3. 列出列表项
+
+		显示当前目录下的文件 ls
+		按时间排序，以列表的方式显示目录项 ls -lrt
+		以上这个命令用到的频率如此之高，以至于我们需要为它建立一个快捷命令方式:
+		
+		在.bashrc 中设置命令别名:
+		
+		alias lsl='ls -lrt'
+		alias lm='ls -al|more'
+		这样，使用lsl，就可以显示目录中的文件按照修改时间排序；以列表方式显示；
+		
+		给每项文件前面增加一个id编号(看上去更加整洁):
+		
+		>ls | cat -n
+		1 a 2 a.out 3 app 4 b 5 bin 6 config
+		
+		注：.bashrc 在/home/你的用户名/ 文件夹下，以隐藏文件的方式存储；可使用 ls -a 查看；
+
+ 4. 查找
+
+		搜寻文件或目录:
+		
+		$find ./ -name "core*" | xargs file
+		查找目标文件夹中是否有obj文件:
+		
+		$find ./ -name '*.o'
+		递归当前目录及子目录删除所有.o文件:
+		
+		$find ./ -name "*.o" -exec rm {} \;
+		find是实时查找，如果需要更快的查询，可试试locate；locate会为文件系统建立索引数据库，如果有文件更新，需要定期执行更新命令来更新索引库:
+		
+		$locate string
+		寻找包含有string的路径:
+		
+		$updatedb
+		与find不同，locate并不是实时查找。你需要更新数据库，以获得最新的文件索引信息。
+
+ 5. 查看
+
+		查看文件：cat vi head tail more
+
+		显示时同时显示行号:
+		
+		$cat -n
+		按页显示列表内容:
+		
+		$ls -al | more
+		只看前10行:
+		
+		$head - 10 **
+		显示文件第一行:
+		
+		$head -1 filename
+		显示文件倒数第五行:
+		
+		$tail -5 filename
+		查看两个文件间的差别:
+		
+		$diff file1 file2
+		动态显示文本最新信息:
+		
+		$tail -f crawler.log
+		
+ 6. 查找文件内容
+
+		使用egrep查询文件内容:
+		
+		egrep '03.1\/CO\/AE' TSF_STAT_111130.log.012
+		egrep 'A_LMCA777:C' TSF_STAT_111130.log.035 > co.out2
+
+ 7. 权限修改
+
+		改变文件的拥有者 chown
+		改变文件读、写、执行等属性 chmod
+		递归子目录修改： chown -R tuxapp source/
+		增加脚本可执行权限： chmod a+x myscript
+
+ 8. 别名
+
+		创建符号链接/硬链接:
+		
+		ln cc ccAgain :硬连接；删除一个，将仍能找到；
+		ln -s cc ccTo :符号链接(软链接)；删除源，另一个无法使用；（后面一个ccTo 为新建的文件）
+
+ 9. 管道和重定向
+
+		批处理命令连接执行，使用 |
+		串联: 使用分号 ;
+		前面成功，则执行后面一条，否则，不执行:&&
+		前面失败，则后一条执行: ||
+		ls /proc && echo  suss! || echo failed.
+		能够提示命名是否执行成功or失败；
+		
+		与上述相同效果的是:
+		
+		if ls /proc; then echo suss; else echo fail; fi
+		重定向:
+		
+		ls  proc/*.c > list 2> &l 将标准输出和标准错误重定向到同一文件；
+		等价的是:
+		
+		ls  proc/*.c &> list
+		清空文件:
+		
+		:> a.txt
+		重定向:
+		
+		echo aa >> a.txt
+		
+ 10. 环境变量
+
+			启动帐号后自动执行的是 文件为 .profile，然后通过这个文件可设置自己的环境变量；
+
+			安装的软件路径一般需要加入到path中:
+
+			PATH=$APPDIR:/opt/app/soft/bin:$PATH:/usr/local/bin:$TUXDIR/bin:$ORACLE_HOME/bin;export PATH
+		
+ 11. 快捷键
+
+			快捷键:
+
+			Ctl-U   删除光标到行首的所有字符,在某些设置下,删除全行
+			Ctl-W   删除当前光标到前边的最近一个空格之间的字符
+			Ctl-H   backspace,删除光标前边的字符
+			Ctl-R   匹配最相近的一个文件，然后输出
+		
+ 12. 综合应用
+
+			查找record.log中包含AAA，但不包含BBB的记录的总数:
+
+			cat -v record.log | grep AAA | grep -v BBB | wc -l
