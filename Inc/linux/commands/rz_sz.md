@@ -32,12 +32,12 @@
 
 - 在Mac上安装 rz && sz (lrzsz[下载安装包lrzsz-0.12.20.tar.gz]( http://www.ohse.de/uwe/software/lrzsz.html))
 
-	- 解压下载的lrzsz文件：tar -xvf lrzsz-0.12.20.tar.gz
-	- 进入解压后的文件夹：cd lrzsz-0.12.20
-	- 准备编译：./configure
-	- 编译安装：make && make install
-	- 建立连接：ln -s /usr/local/bin/lsz /usr/local/bin/sz<br/>
-     			ln -s /usr/local/bin/lrz /usr/local/bin/rz
+	- 解压下载的lrzsz文件：`tar -xvf lrzsz-0.12.20.tar.gz`
+	- 进入解压后的文件夹：`cd lrzsz-0.12.20`
+	- 准备编译：`./configure`
+	- 编译安装：`make && make install`
+	- 建立连接：`ln -s /usr/local/bin/lsz /usr/local/bin/sz`<br/>
+     			`ln -s /usr/local/bin/lrz /usr/local/bin/rz`
 
 - 在[https://github.com/mmastrac/iterm2-zmodem](https://github.com/mmastrac/iterm2-zmodem)下载iterm2-recv-zmodem.sh和iterm2-send-zmodem.sh文件，放入/usr/local/bin目录。
 
@@ -47,9 +47,9 @@
 
 - 点击+号,添加如下的参数,参考下图
 
-![图片2](/images/mac_rz_sz_2.png)
+![图片2](/images/mac_rz_sz_2.jpg)
 
-		 Regular expression: /*/*B0100
+            Regular expression: /*/*B0100
 	
 	    Action: Run Silent Coprocess
 	
