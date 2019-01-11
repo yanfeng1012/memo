@@ -77,7 +77,7 @@
 	            ]);
 	            $response->headers->setCookie(new Cookie('captcha', md5($captcha), time() + 600));
 	            $response->headers->setCookie(new Cookie('mobile', md5($mobile), time() + 60));
-	            $response->headers->setCookie(new Cookie('hash', md5($mobile . '_wateroa_' . $result['data']['code']), time() + 60));
+	            $response->headers->setCookie(new Cookie('hash', md5($mobile . '特殊字段' . $result['data']['code']), time() + 60));
 	            return $response;
 	        } else {
 	            return $this->json([
