@@ -12,6 +12,7 @@
 3. twig 截取变量
 
 		{{content|slice(0,100)}
+		{{ item.address| truncate(12, false, '...') }}(在需要...的时候使用比较快捷)
 
 4. twig 基本用法
 
