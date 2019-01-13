@@ -58,3 +58,4 @@
 22. [deploy symfony](/Inc/others/deploysf.md)
 23. [app 版本更新](/Inc/others/version.md)
 24. [packagist](https://www.jianshu.com/p/6d98eb756826)
+25. [app download](/Inc/others/app_download.md)
