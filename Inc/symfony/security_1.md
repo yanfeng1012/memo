@@ -1,4 +1,5 @@
 ## 自定义Authenticator示例
+<<<<<<< Updated upstream
 - FormLoginAuthenticator code
 
 		<?php
@@ -108,6 +109,162 @@
 		          return false;
 		      }
 		  }
+=======
+	<?php
+	namespace AuthBundle\Security;
+	
+	use Symfony\Component\HttpFoundation\Request;
+	use Symfony\Component\HttpFoundation\Response;
+	use Symfony\Component\HttpFoundation\RedirectResponse;
+	use Symfony\Component\Routing\RouterInterface;
+	use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+	use Symfony\Component\Security\Core\Exception\AuthenticationException;
+	use Symfony\Component\Security\Core\User\UserInterface;
+	use Symfony\Component\Security\Core\User\UserProviderInterface;
+	use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
+	use Symfony\Component\Security\Guard\Authenticator\AbstractFormLoginAuthenticator;
+	use Symfony\Component\Security\Core\Security;
+	use Symfony\Component\Security\Core\Exception\CustomUserMessageAuthenticationException;
+	use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
+	use Symfony\Component\HttpFoundation\Cookie;
+	use Doctrine\ORM\EntityManagerInterface;
+	use SystemBundle\Entity\LoginLog;
+	use Symfony\Component\HttpFoundation\RequestStack;
+	
+	class AdminFormLoginAuthenticator extends AbstractFormLoginAuthenticator
+	{
+	
+	    private $router;
+	    private $encoder;
+	    private $em;
+	    private $requestStack;
+	
+	    public function __construct(RouterInterface $router, UserPasswordEncoderInterface $encoder, EntityManagerInterface $em, RequestStack $requestStack)
+	    {
+	        $this->router = $router;
+	        $this->encoder = $encoder;
+	        $this->em = $em;
+	        $this->requestStack = $requestStack;
+	    }
+		
+		//用户登录验证
+	    public function getCredentials(Request $request)
+	    {	
+	    	 //判断验证路由
+	        if ($request->get('_route') != 'auth_login_check') {
+	            return;
+	        }
+	        
+	        // 获取用户名
+	        $username = $request->request->get('_username');
+	        // 存储用户名
+	        $request->getSession()->set(Security::LAST_USERNAME, $username);
+	        // 获取密码
+	        $password = $request->request->get('_password');
+	        // 获取图形验证码
+	        $captcha = $request->request->get('_captcha');
+	        $loginCaptcha = $request->getSession()->get('login');
+	        if((!isset($loginCaptcha['phrase']) || $loginCaptcha['phrase'] != $captcha) && $captcha != '验证码'){
+	            throw new CustomUserMessageAuthenticationException('验证码错误');
+	        }
+	        return [
+	            'username' => $username,
+	            'password' => $password
+	        ];
+	    }
+	
+	    public function getUser($credentials, UserProviderInterface $userProvider)
+	    {
+	        try {
+	            return $userProvider->loadUserByUsername($credentials['username']);
+	        }catch (UsernameNotFoundException $e) {
+	            throw new CustomUserMessageAuthenticationException('用户名或手机号不存在');
+	        }
+	    }
+	
+		// 验证登录失败次数
+	    public function checkCredentials($credentials, UserInterface $user)
+	    {
+	        $request = $this->requestStack->getCurrentRequest();
+	        $times = $this->checkFaildTimes($user->getId(), 1);
+	        if($times > 4){
+	            throw new CustomUserMessageAuthenticationException('密码错误次数已达上限，请24小时后重试');
+	        }
+	        if ($this->encoder->isPasswordValid($user, $credentials['password'])) {
+	            $this->loginLog($user->getId(), $user->getUsername(), 1, $request->getClientIp());
+	            return true;
+	        }
+	        $this->loginLog($user->getId(), $user->getUsername(), 2, $request->getClientIp());
+	        throw new CustomUserMessageAuthenticationException('密码错误，您还可以尝试' . (4 - $times) .'次');
+	    }
+	
+	    public function onAuthenticationSuccess(Request $request, TokenInterface $token, $providerKey)
+	    {
+	        $routeName = $token->getUser()->getStatus() == 3 ? 'rbac_user_firstresetpass' : 'admin_homepage';
+	        $url = $this->router->generate($routeName);
+	        $response = new RedirectResponse($url);
+	        /**
+	         * 判断是否是记住密码
+	         */
+	        if($request->request->get('_remember_me')){
+	            $username = $request->request->get('_username');
+	            $response->headers->setCookie(new Cookie('USERNAME', $username, time() + 2592000));
+	        }
+	        
+	        return $response;
+	    }
+	
+	    public function onAuthenticationFailure(Request $request, AuthenticationException $exception)
+	    {
+	        $request->getSession()->set(Security::AUTHENTICATION_ERROR, $exception);
+	        
+	        $url = $this->router->generate('auth_login_index');
+	        
+	        return new RedirectResponse($url);
+	    }
+	
+	    protected function getLoginUrl()
+	    {
+	        return $this->router->generate('auth_login_index');
+	    }
+	
+	    protected function getDefaultSuccessRedirectUrl()
+	    {
+	        return $this->router->generate('admin_homepage');
+	    }
+	
+	    public function supportsRememberMe()
+	    {
+	        return true;
+	    }
+	    
+	    private function checkFaildTimes($userId, $loginType)
+	    {
+	        /**
+	         * 
+	         * @var \SystemBundle\Repository\LoginLogRepository $logRepo
+	         */
+	        $logRepo = $this->em->getRepository('SystemBundle:LoginLog');
+	        return $logRepo->getFaildCount($userId, $loginType);
+	    }
+	    
+	    private function loginLog($userId, $username, $status, $ip)
+	    {
+	        $loginLog = new LoginLog();
+	        $loginLog->setCreateAt(new \DateTime());
+	        $loginLog->setIp($ip);
+	        $loginLog->setStatus($status);
+	        $loginLog->setUserId($userId);
+	        $loginLog->setUsername($username);
+	        $loginLog->setLoginType(1);
+	        $this->em->persist($loginLog);
+	        $this->em->flush();
+	    }
+	    
+	    public function start(Request $request, AuthenticationException $authException = null){}
+	    
+	}
+>>>>>>> Stashed changes
 
 - 相关配置
 
