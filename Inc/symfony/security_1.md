@@ -35,7 +35,7 @@
 		      public function getCredentials(Request $request)
 		      {
 		          //dump($request->getPathInfo());die();
-		  		// 判断是否是登录提交的验证路由
+		  	  // 判断是否是登录提交的验证路由
 		          if ($request->getPathInfo() != '/login_check') {
 		              return;
 		          }
@@ -53,11 +53,11 @@
 		      public function getUser($credentials, UserProviderInterface $userProvider)
 		      {
 		          try {
-		  			// 拿到getCredentials()返回值，在数据库中拿到用户信息
+		  	      // 拿到getCredentials()返回值，在数据库中拿到用户信息
 		              return $userProvider->loadUserByUsername($credentials['email']);
 		          }
 		          catch (UsernameNotFoundException $e) {
-		  			// 用户不存在的一场
+		  	      // 用户不存在的一场
 		              throw new CustomUserMessageAuthenticationException('用户不存在');
 		          }
 		      }
@@ -65,7 +65,7 @@
 		      public function checkCredentials($credentials, UserInterface $user)
 		      {
 		          $plainPassword = $credentials['password'];
-		  		// 校验密码
+		  	  // 校验密码
 		          if ($this->encoder->isPasswordValid($user, $plainPassword)) {
 		              return true;
 		          }
@@ -75,7 +75,7 @@
 		  
 		      public function onAuthenticationSuccess(Request $request, TokenInterface $token, $providerKey)
 		      {
-		  		// 设置登录成功后的跳转链接
+		  	  // 设置登录成功后的跳转链接
 		          $url = $this->router->generate('kit_user_homepage');
 		          
 		          return new RedirectResponse($url);
@@ -83,7 +83,7 @@
 		  
 		      public function onAuthenticationFailure(Request $request, AuthenticationException $exception)
 		      {
-		  		// 失败跳转uri
+		  	  // 失败跳转uri
 		          $request->getSession()->set(Security::AUTHENTICATION_ERROR, $exception);
 		          
 		          $url = $this->router->generate('kit_web_login');
@@ -98,13 +98,13 @@
 		  
 		      protected function getDefaultSuccessRedirectUrl()
 		      {
-		  		// 登录成功后默认跳转链接
+		  	  // 登录成功后默认跳转链接
 		          return $this->router->generate('kit_web_homepage');
 		      }
 		  
 		      public function supportsRememberMe()
 		      {
-		  		// remeber me 该功能暂未实现
+		  	  // remeber me 该功能暂未实现
 		          return false;
 		      }
 		  }
