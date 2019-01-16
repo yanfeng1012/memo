@@ -102,3 +102,5 @@
 9. emepty()
 
 	empty(0) or empty(null) === true 
+	
+10. strlen() && mb_strlen()
