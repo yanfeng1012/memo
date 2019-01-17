@@ -6,3 +6,4 @@
 5. [mysql query](/Inc/MySql/inc/query.md)&nbsp;&nbsp;&nbsp;&nbsp;MySQL查询当天、本周、本月、上一个月的数据
 6. [find_in_set()](/Inc/MySql/inc/find_in_set.md) &nbsp;&nbsp;&nbsp;&nbsp; MySQL中find_in_set()函数的使用
 7. [mysql 主从配置](/Inc/MySql/inc/master-slave.md)
+8.[mysql log config](/Inc/MySql/inc/log-config.md)
