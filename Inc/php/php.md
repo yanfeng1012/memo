@@ -104,3 +104,61 @@
 	empty(0) or empty(null) === true 
 	
 10. strlen() && mb_strlen()
+
+11. extract()
+
+	- 将键值 "Cat"、"Dog" 和 "Horse" 赋值给变量 $a、$b 和 $c：
+	
+			<?php
+				$a = "Original";
+				$my_array = array("a" => "Cat","b" => "Dog", "c" => "Horse");
+				extract($my_array);
+				echo "\$a = $a; \$b = $b; \$c = $c";
+			?>
+			
+	- extract() 函数从数组中将变量导入到当前的符号表。
+	
+		`extract(array,extract_rules,prefix)`
+	
+		1. 该函数使用数组键名作为变量名，使用数组键值作为变量值。针对数组中的每个元素，将在当前符号表中创建对应的一个变量。
+		
+		2. 第二个参数 type 用于指定当某个变量已经存在，而数组中又有同名元素时，extract() 函数如何对待这样的冲突。
+	
+				EXTR_OVERWRITE - 默认。如果有冲突，则覆盖已有的变量。
+				EXTR_SKIP - 如果有冲突，不覆盖已有的变量。
+				EXTR_PREFIX_SAME - 如果有冲突，在变量名前加上前缀 prefix。
+				EXTR_PREFIX_ALL - 给所有变量名加上前缀 prefix。
+				EXTR_PREFIX_INVALID - 仅在不合法或数字变量名前加上前缀 prefix。
+				EXTR_IF_EXISTS - 仅在当前符号表中已有同名变量时，覆盖它们的值。其它的都不处理。
+				EXTR_PREFIX_IF_EXISTS - 仅在当前符号表中已有同名变量时，建立附加了前缀的变量名，其它的都不处理。
+				EXTR_REFS - 将变量作为引用提取。导入的变量仍然引用了数组参数的值。
+		
+		3. 该函数返回成功导入到符号表中的变量数目。
+	
+12. 压缩 解压缩函数
+
+		压缩函数：gzcompress gzdeflate gzencode
+		
+		解压函数：gzuncompress gzinflate gzdecode
+		
+		gzcompress使用的是ZLIB格式；
+		
+		gzdeflate使用的是纯粹的DEFLATE格式；
+		
+		gzencode使用的是GZIP格式；
+		
+13. eregi()
+
+	>`eregi()`函数在一个字符串搜索指定的模式的字符串。搜索不区分大小写。`Eregi()`可以特别有用的检查有效性字符串,如密码。
+	
+	>返回值
+	>如果匹配成功返回true,否则,则返回false
+
+	>eg.eregi ("/\w{8,10}/", $password)
+	
+14. strcmp比较字符串
+
+		int strcmp ( string $str1 , string $str2 )
+		// 参数 str1第一个字符串。str2第二个字符串。如果 str1 小于 str2 返回 < 0； 如果 str1 大于 str2 返回 > 0；如果两者相等，返回 0。
+
+	
