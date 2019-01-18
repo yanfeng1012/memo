@@ -1,4 +1,4 @@
-1. iconv  (字符串按要求的字符编码来转换)
+1. `iconv`  (字符串按要求的字符编码来转换)
 
 		iconv ($in_charset ,$out_charset ,$str )
 		eg:
@@ -85,11 +85,11 @@
 
 		echo 'REQUEST_URI：'.$_SERVER['REQUEST_URI'];//获取当前域名的后缀 
 		
-7. str_shuffle()
+7. `str_shuffle()`
 
 		str_shuffle() 函数随机打乱字符串中的所有字符。
 		
-8. unlink() 函数
+8. `unlink()` 函数
 
 		unlink() 函数删除文件。
 		若成功，则返回 true，失败则返回 false。
@@ -99,13 +99,15 @@
 		filename	必需。规定要删除的文件。
 		context	可选。规定文件句柄的环境。Context 是可修改流的行为的一套选项。
 		
-9. emepty()
+9. `emepty()`
 
-	empty(0) or empty(null) === true 
+		empty(0) or empty(null) === true 
 	
-10. strlen() && mb_strlen()
+10. `strlen() && mb_strlen()`
 
-11. extract()
+		函数返回字符串的长度
+
+11. `extract()`
 
 	- 将键值 "Cat"、"Dog" 和 "Horse" 赋值给变量 $a、$b 和 $c：
 	
@@ -147,7 +149,7 @@
 		
 		gzencode使用的是GZIP格式；
 		
-13. eregi()
+13. `eregi()`
 
 	>`eregi()`函数在一个字符串搜索指定的模式的字符串。搜索不区分大小写。`Eregi()`可以特别有用的检查有效性字符串,如密码。
 	
@@ -156,7 +158,7 @@
 
 	>eg.eregi ("/\w{8,10}/", $password)
 	
-14. strcmp比较字符串
+14. `strcmp()`比较字符串
 
 		int strcmp ( string $str1 , string $str2 )
 		// 参数 str1第一个字符串。str2第二个字符串。如果 str1 小于 str2 返回 < 0； 如果 str1 大于 str2 返回 > 0；如果两者相等，返回 0。
