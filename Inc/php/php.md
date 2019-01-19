@@ -163,4 +163,10 @@
 		int strcmp ( string $str1 , string $str2 )
 		// 参数 str1第一个字符串。str2第二个字符串。如果 str1 小于 str2 返回 < 0； 如果 str1 大于 str2 返回 > 0；如果两者相等，返回 0。
 
+14. `intval()`
+
+		intval() 获取变量的整数值
 	
+15. `dechex()`
+
+		dechex() 函数把十进制转换为十六进制。
