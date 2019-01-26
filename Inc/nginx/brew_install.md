@@ -138,7 +138,7 @@
 				
 		- enable-php-pathinfo-sf.conf(新增)
 
-						location / {
+					location / {
 				            try_files $uri /app.php$is_args$args;
 				        }
 				        # PROD
