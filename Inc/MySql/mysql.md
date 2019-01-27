@@ -7,3 +7,4 @@
 7. [find_in_set()](/Inc/MySql/inc/find_in_set.md) &nbsp;&nbsp;&nbsp;&nbsp; MySQL中find_in_set()函数的使用
 8. [mysql 主从配置](/Inc/MySql/inc/master-slave.md)
 9. [mysql log config](/Inc/MySql/inc/log-config.md)
+10. [mysql8 error](/Inc/MySql/inc/mysql8.md)
