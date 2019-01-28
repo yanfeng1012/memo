@@ -11,4 +11,13 @@
 3. Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
 
 		mysql 没有正常启动 
-		sudo mysql.server start 更新报错解决问题	
+		sudo mysql.server start 更新报错解决问题
+		
+4. sql_mode
+
+		 ONLY_FULL_GROUP_BY 
+		 STRICT_TRANS_TABLES
+		 NO_ZERO_IN_DATE 
+		 NO_ZERO_DATE 
+		 ERROR_FOR_DIVISION_BY_ZERO
+		 NO_ENGINE_SUBSTITUTION	
