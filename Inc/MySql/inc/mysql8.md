@@ -21,3 +21,7 @@
 		 NO_ZERO_DATE 
 		 ERROR_FOR_DIVISION_BY_ZERO
 		 NO_ENGINE_SUBSTITUTION	
+		 
+5. nginx: [alert] could not open error log file: open() "/usr/local/var/log/nginx/error.log" failed (13: Permission denied)
+
+ 		give /usr/local/var/log/nginx/ folder permissions, so nginx can write into it.
