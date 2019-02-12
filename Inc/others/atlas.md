@@ -14,7 +14,9 @@
 		
 		(2).Centos 5.X安装 Atlas-XX.el5.x86_64.rpm，Centos 6.X安装Atlas-XX.el6.x86_64.rpm。
 		
-		(3).如果执行sudo rpm –i Atlas-XX.el6.x86_64.rpm，提示类似：“file /usr/local/mysql-proxy/bin/encrypt from install of Atlas-2.0.1-1.x86_64 conflicts with file from package Atlas-1.0.3-1.x86_64”错误，则表示该系统之前已经安装过Atlas-1.0.3-1.x86_64，需要执行：sudo rpm –e Atlas-1.0.3-1.x86_64，将之前安装的Atlas删除掉，再执行sudo rpm –i Atlas-XX.el6.x86_64.rpm安装新版本的Atlas。
+		(3).如果执行sudo rpm –i Atlas-XX.el6.x86_64.rpm，
+		提示类似：“file /usr/local/mysql-proxy/bin/encrypt from install of Atlas-2.0.1-1.x86_64 conflicts with file from package Atlas-1.0.3-1.x86_64”错误，则表示该系统之前已经安装过Atlas-1.0.3-1.x86_64，
+		需要执行：sudo rpm –e Atlas-1.0.3-1.x86_64，将之前安装的Atlas删除掉，再执行sudo rpm –i Atlas-XX.el6.x86_64.rpm安装新版本的Atlas。
 		
 		(4).后端mysql版本应大于5.1，建议使用Mysql 5.6
 		
