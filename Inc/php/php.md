@@ -170,3 +170,9 @@
 15. `dechex()`
 
 		dechex() 函数把十进制转换为十六进制。
+		
+16. `escapeshellarg` 
+
+		 把字符串转码为可以在 shell 命令里使用的参数
+		 eg: system('ls '.escapeshellarg($dir));
+
