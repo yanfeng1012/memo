@@ -8,3 +8,7 @@
 8. [mysql 主从配置](/Inc/MySql/inc/master-slave.md)
 9. [mysql log config](/Inc/MySql/inc/log-config.md)
 10. [mysql8 errors](/Inc/MySql/inc/mysql8.md)
+11. mysql 外键
+      
+        SET FOREIGN_KEY_CHECKS=0; //取消外键
+        SET FOREIGN_KEY_CHECKS=1; //启用外键
