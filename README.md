@@ -61,3 +61,4 @@
 24. [packagist](https://www.jianshu.com/p/6d98eb756826)
 25. [app download](/Inc/others/app_download.md)
 26. [Atlas 解决redis 内存不够的问题](/Inc/others/atlas.md)
+27. [wechat sdk](https://github.com/overtrue/wechat)
