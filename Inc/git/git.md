@@ -3,3 +3,4 @@
 - [账户密码设置](/Inc/git/git/config.md)
 - [git .ssh](/Inc/git/git/ssh.md)
 - [window 删除凭据](/Inc/git/git/delete.md)
+- [git rebase 变基](/Inc/git/git/rebase.md)
