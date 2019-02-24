@@ -11,8 +11,8 @@
 			var _str = "<span>"+_day+"</span>"+
 				"<span class='right' onclick='trigger(this)' date-value="+date+">"+
 					"<img src='{{ asset('img/bj.png'|theme) }}' alt='' / style=''>"+
-					"</span>"+
-					"<div class='area' >"+
+				"</span>"+
+				"<div class='area' >"+
 					"<div class='name'>"+
 						"<div>"+user_name+"</div>"+
 						"<input type='hidden' name='Scheduling[user_id][]' id='' value="+user_id+" />"+
@@ -23,6 +23,6 @@
 						"<input type='hidden' name='Scheduling[work_time][]' id='' value="+work_time+" />"+
 						"<div>"+work_time+"</div>"+
 					"</div>"+
-						"</div>";
+				"</div>";
 			$(_self).parents('.bg-white').html(_str);
 		}
