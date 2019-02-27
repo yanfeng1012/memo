@@ -63,3 +63,4 @@
 25. [app download](/Inc/others/app_download.md)
 26. [Atlas 解决redis 内存不够的问题](/Inc/others/atlas.md)
 27. [wechat sdk](https://github.com/overtrue/wechat)
+28. [php errors](/Inc/php/errors.md)
