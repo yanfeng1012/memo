@@ -13,3 +13,5 @@
       
         SET FOREIGN_KEY_CHECKS=0; //取消外键
         SET FOREIGN_KEY_CHECKS=1; //启用外键
+13. [mysql 关键字和保留字](https://dev.mysql.com/doc/refman/8.0/en/keywords.html)
+
