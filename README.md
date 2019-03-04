@@ -64,3 +64,4 @@
 26. [Atlas 解决redis 内存不够的问题](/Inc/others/atlas.md)
 27. [wechat sdk](https://github.com/overtrue/wechat)
 28. [php errors](/Inc/php/errors.md)
+29. [Hbuilder ios 打包](https://zhuanlan.zhihu.com/p/34483492)
