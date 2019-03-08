@@ -8,3 +8,7 @@
 - 创建数据库和样表
 
 		CREATE DATABASE cookbook;
+		
+- DATE_FORMAT()
+
+		DATE_FORMAT(date,'%b %d %Y %h:%i %p')
