@@ -12,6 +12,7 @@
 	 - [DefaultConfiguration](/Inc/linux/DefaultConfiguration.md)
 	 - [Linux_shell_login](/Inc/linux/shell_login.md)
 	 - [crontab](/Inc/linux/crontab.md)Linux定时任务
+	 - [Connection reset by peer原理解析](https://blog.csdn.net/yangguosb/article/details/79794571)
 3. symfony
 	 - [命令](/Inc/symfony/symfony.md)
 	 - [控制器中的快捷方式](/Inc/symfony/shortcutmethods.md)
