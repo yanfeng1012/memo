@@ -13,7 +13,11 @@
 	 - [Linux_shell_login](/Inc/linux/shell_login.md)
 	 - [crontab](/Inc/linux/crontab.md)Linux定时任务
 	 - [Connection reset by peer原理解析](https://blog.csdn.net/yangguosb/article/details/79794571)
+<<<<<<< HEAD
 	 - [CentOS Local yum repo](/Inc/linux/yum.md)
+=======
+	 - [linux 网卡配置详解](/Inc/linux/ifconfig.md)
+>>>>>>> f78bd5920f9d349265a6de25ba17417e5e999766
 3. symfony
 	 - [命令](/Inc/symfony/symfony.md)
 	 - [控制器中的快捷方式](/Inc/symfony/shortcutmethods.md)
