@@ -15,6 +15,7 @@
 	 - [Connection reset by peer原理解析](https://blog.csdn.net/yangguosb/article/details/79794571)
 	 - [CentOS Local yum repo](/Inc/linux/yum.md)
 	 - [linux 网卡配置详解](/Inc/linux/ifconfig.md)
+	 - [linux 安装 FFMpeg](/Inc/linux/ffmpeg.md)
 3. symfony
 	 - [命令](/Inc/symfony/symfony.md)
 	 - [控制器中的快捷方式](/Inc/symfony/shortcutmethods.md)
