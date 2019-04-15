@@ -62,3 +62,5 @@
 		                filters: //定义filters
 		                    base.level_filter: BaseBundle\Doctrine\Filter\LevelFilter
 		                auto_mapping: true
+				
+	- ps: Repository中的query Function 必须为DQL
