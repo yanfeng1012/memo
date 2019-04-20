@@ -3,10 +3,10 @@
    
 2. form 禁用表单H5验证
 
-		{{ form(form,  {'attr': {'novalidate': 'novalidate', 'class': 'form-x'}}) }}
+	    {{ form(form,  {'attr': {'novalidate': 'novalidate', 'class': 'form-x'}}) }}
 		
-		{{ form_start(form,{attr:{class:'form-x'}}) }}
-		{{ form_widget(form) }}
+	    {{ form_start(form,{attr:{class:'form-x'}}) }}
+            {{ form_widget(form) }}
 	    {{ form_end(form) }}
 
 3. twig 截取变量
@@ -47,7 +47,7 @@
 
 10. 字符截断
 
-			composer require "twig/extensions"  // 加载twig扩展包
+		  composer require "twig/extensions"  // 加载twig扩展包
 		
 		  // services.yml注册服务
 		  twig.extension.text:
