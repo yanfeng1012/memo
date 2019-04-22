@@ -33,4 +33,17 @@
 13. DNS 域名解析器 阿里的域名解析器：223.5.5.5 223.6.6.6
 
 
-	- `重启网卡` service network restart
+	- `重启网卡` service network restart(centos 6) || systemctl restart network(centos 7)
+	
+14. DNS配置文件：`cat /etc/resolv.conf`
+    设置主机和IP绑定信息：`cat /etc/hosts`
+    设置主机名：`cat /etc/hostname`
+    
+15. 关闭防火墙并设置开机不启动
+
+		查看防火墙状态：systemctl status firewalld.service
+		关闭：systemctl stop firewalld
+		开启：systemctl start firewalld
+		开机自动关闭：systemctl disable firewalld
+		开机自动启动：systemctl enable firewalld
+		查看开机是否启动：chkconfig --list|grep network(RHLE6)
