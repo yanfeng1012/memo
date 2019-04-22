@@ -35,9 +35,11 @@
 
 	- `重启网卡` service network restart(centos 6) || systemctl restart network(centos 7)
 	
-14. DNS配置文件：`cat /etc/resolv.conf`
-    设置主机和IP绑定信息：`cat /etc/hosts`
-    设置主机名：`cat /etc/hostname`
+14. DNS
+
+		DNS配置文件：`cat /etc/resolv.conf`
+		设置主机和IP绑定信息：`cat /etc/hosts`
+		设置主机名：`cat /etc/hostname`
     
 15. 关闭防火墙并设置开机不启动
 
