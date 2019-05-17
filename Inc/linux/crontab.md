@@ -101,7 +101,7 @@
 		
  可以使用这种方法在$HOME目录中对crontab文件做一备份:
  
-		crontab -l > $HOME/mycron
+	crontab -l > $HOME/mycron
 		
 - 编辑crontab文件
 
@@ -124,5 +124,9 @@
 		  * * * * * php /home/wwwroot/oa/bin/console admin:sms:send >> "/home/wwwlogs/sms/$(date +"\%Y\%m\%d\%H")_sms.log" 2>&1
 		  
 	PS:2>&1 表示把标准错误输出重定向到与标准输出一致	
+	
+- 每半小时执行
+	
+	*/30 * * * * cmd
 	
 
