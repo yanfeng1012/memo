@@ -80,7 +80,8 @@
 
 		查看磁盘空间 df -h
 
-		查看目录大小 du -sh
+		查看目录大小 du -sh 
+			    ls -h
 		
 		打包 tar -cvf
 		
