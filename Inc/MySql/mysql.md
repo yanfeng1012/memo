@@ -19,3 +19,4 @@
 
         mysqldump -u 用户名 -p dbname > dbname.sql
 
+15. [mysql 数据去重](https://blog.csdn.net/n950814abc/article/details/82284838)
