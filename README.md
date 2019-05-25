@@ -43,6 +43,7 @@
 	 	- [Twig 基础](/Inc/Twig/twig.md)
 	 	- [macro](/Inc/Twig/twigs/macro.md) 
 	 - [monolog](/Inc/Monolog/monolog.md)
+	 - [custom exception](https://symfony.com/doc/3.4/controller/error_pages.html)
 4. [ES](/Inc/others/es.md)
 5. [Git](/Inc/git/git.md)
 6. [composer](/Inc/Composer/composer.md)
