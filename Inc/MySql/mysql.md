@@ -1,6 +1,6 @@
 1. [mysql 语法汇总](/Inc/MySql/inc/mysql.md)
 2. [grant 授权](/Inc/MySql/inc/grant.md)
-3. [user](/Inc/MySql/inc/user.md)
+3. [创建用户（user）](/Inc/MySql/inc/user.md)
 4. [confguire](/Inc/MySql/inc/confguire.md)
 5. [sql_mode](/Inc/MySql/inc/sql_mode.md)
 6. [update root password](/Inc/MySql/inc/update_root_password.md)
