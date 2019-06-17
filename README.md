@@ -16,6 +16,8 @@
 	 - [CentOS Local yum repo](/Inc/linux/yum.md)
 	 - [linux 网卡配置详解](/Inc/linux/ifconfig.md)
 	 - [linux 安装 FFMpeg](/Inc/linux/ffmpeg.md)
+	 - [selinux 开启和关闭](https://blog.csdn.net/qq_39698293/article/details/79505285)
+	 - [关于解决RedHat6.0以上版本：Loaded plugins: product-id, refresh-packagekit, security, subscription-manager](https://blog.csdn.net/qq_37791764/article/details/78966277)
 3. symfony
 	 - [命令](/Inc/symfony/symfony.md)
 	 - [控制器中的快捷方式](/Inc/symfony/shortcutmethods.md)
