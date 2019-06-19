@@ -1,5 +1,5 @@
 # My Memo :elephant: :elephant:
-1. nginx 
+1. nginx
 	- [nginx vhost conf](/Inc/nginx/vhost.md)
  	- [lnmp一键安装](/Inc/nginx/lnmp一键安装步骤.md)
  	- [nginx 413](/Inc/nginx/413.md)
@@ -42,8 +42,8 @@
 	 - [Doctrine querybuilder limit and offset](/Inc/symfony/limit_offset.md)
 	 - [Doctrine JOIN](/Inc/symfony/join.md)
 	 - [twig相关](/Inc/Twig/twig.md)
-	 	- [Twig 基础](/Inc/Twig/twig.md)
-	 	- [macro](/Inc/Twig/twigs/macro.md) 
+	 - [Twig 基础](/Inc/Twig/twig.md)
+	 - [macro](/Inc/Twig/twigs/macro.md)
 	 - [monolog](/Inc/Monolog/monolog.md)
 	 - [custom exception](https://symfony.com/doc/3.4/controller/error_pages.html)
 4. [ES](/Inc/others/es.md)
@@ -54,7 +54,7 @@
 9. [PHP函数](/Inc/php/php.md)
 10. [8p](/Inc/8p/8p.md)
 11. [短信发送](/Inc/others/sms.md)<br>
-	[发送短信验证码验证](/Inc/others/catch_sms.md)
+	  [发送短信验证码验证](/Inc/others/catch_sms.md)
 12. [select2](/Inc/select2/select2.md)
 13. [javascript](/Inc/javascript/js.md)
 14. [80端口被占用](/Inc/others/80.md)
