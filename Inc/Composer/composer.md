@@ -56,3 +56,12 @@
 		  "incenteev-parameters": {
 		      "file": "app/config/parameters.yml"
 		  },
+		  
+## Linux安装composer
+
+	wget https://dl.laravel-china.org/composer.phar -O /usr/local/bin/composer
+	chmod a+x /usr/local/bin/composer
+	
+### 禁用https
+
+	composer config -g secure-http false
