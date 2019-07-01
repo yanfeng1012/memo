@@ -142,6 +142,11 @@
 
 		[root@localhost mysql]# ./bin/mysqld  --defaults-file=/etc/my.cnf --initialize
 
+
+	- 1 如果出现 `error while loading shared libraries:libnuma.so.1 ...` 
+	
+			yum install numactl
+	
 	ps: 初始化成功后 在最后会有 数据库root初始密码 
     `[NOTE] A temporary password is generated for root@localhost: #qweRDFG(`
     
