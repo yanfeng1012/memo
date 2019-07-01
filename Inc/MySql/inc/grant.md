@@ -10,8 +10,8 @@
 
 - 取消授权
 
-		REVOKE ALL ON *.* FROM 'username'@'ip address' IDENTIFIED BY 'user password';
-		REVOKE select,insert,update,delete ON db_name.* FROM 'username'@'ip address' IDENTIFIED BY 'user password';
+		REVOKE ALL ON *.* FROM 'username'@'ip address'
+		REVOKE select,insert,update,delete ON db_name.* FROM 'username'@'ip address';
 
 - 刷新权限，让修改生效
 
