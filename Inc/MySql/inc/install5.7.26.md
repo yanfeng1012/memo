@@ -163,7 +163,11 @@
 
 		cp /usr/local/mysql/bin/mysql /usr/bin/
 
-		
+11. 修改root初始密码
+
+		SET PASSWORD FOR 'root'@'localhost' = PASSWORD('newpass');
+
+
 	
 
 		 
