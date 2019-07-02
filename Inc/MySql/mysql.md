@@ -22,3 +22,4 @@
 15. [mysql 数据去重](https://blog.csdn.net/n950814abc/article/details/82284838)
 16. [mysql bin_log](/Inc/MySql/inc/binlog.md)
 17. [linux 安装 MySQL 5.7.26](/Inc/MySql/inc/install5.7.26.md)
+18. [linux 安装 MySQL 8.0。16](/Inc/MySql/inc/install8.0.16.md)
