@@ -56,7 +56,7 @@
 		
 3. 移动并重命名
 
-		mv mysql-8.0.16-linux-glibc2.12-x86_64.tar /usr/local/mysql
+		mv mysql-8.0.16-linux-glibc2.12-x86_64 /usr/local/mysql
 		
 4. 创建mysql用户组及用户
 
