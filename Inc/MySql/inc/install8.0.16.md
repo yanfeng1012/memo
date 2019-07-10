@@ -80,6 +80,8 @@
 		datadir = /usr/local/mysql/data # 数据目录
 		#pid-file = /usr/local/mysql/data/xxx.pid #无需指定在 datadir 下
 		tmpdir = /tmp
+		# 默认使用“mysql_native_password”插件认证
+		default_authentication_plugin=mysql_native_password
 		skip-external-locking
 		key_buffer_size = 256M
 		max_allowed_packet = 1M
