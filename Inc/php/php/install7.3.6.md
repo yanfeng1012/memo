@@ -93,7 +93,7 @@
 ### 复制配置文件
 
 	[root@localhost php-7.3.6]# cp php.ini-production /usr/local/php/etc/php.ini
-	[root@localhost php-7.3.6]# cp /usr/local/php/etc/php-fpm.conf.default /usr/local/php/etc/php-fpm.conf
+	[root@localhost php-7.3.6]# mv /usr/local/php/etc/php-fpm.conf.default /usr/local/php/etc/php-fpm.conf
 	
 ### 配置php-fpm.conf
 
