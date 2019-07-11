@@ -20,6 +20,7 @@
 	 - [关于解决RedHat6.0以上版本：Loaded plugins: product-id, refresh-packagekit, security, subscription-manager](https://blog.csdn.net/qq_37791764/article/details/78966277)
 	 - [yum 安装 Git](https://blog.csdn.net/t3369/article/details/79562853)
 	 - [Linux(CentOS)挂载数据盘](https://www.cnblogs.com/hepc/p/9241647.html)
+	 - [centos6.9安装vnc server](https://blog.csdn.net/andyguan01_2/article/details/86087811)
 3. symfony
 	 - [命令](/Inc/symfony/symfony.md)
 	 - [控制器中的快捷方式](/Inc/symfony/shortcutmethods.md)
