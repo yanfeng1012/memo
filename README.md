@@ -53,7 +53,7 @@
 6. [composer](/Inc/Composer/composer.md)
 7. [MySql](/Inc/MySql/mysql.md)
 8. [circlechar](/Inc/others/circlechar.md)
-9. [PHP函数](/Inc/php/php.md)
+9. [PHP](/Inc/php/php.md)
 10. [8p](/Inc/8p/8p.md)
 11. [短信发送](/Inc/others/sms.md)&nbsp;&nbsp;&nbsp;&nbsp;[发送短信验证码验证](/Inc/others/catch_sms.md)
 12. [select2](/Inc/select2/select2.md)
