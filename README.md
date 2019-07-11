@@ -55,8 +55,7 @@
 8. [circlechar](/Inc/others/circlechar.md)
 9. [PHP函数](/Inc/php/php.md)
 10. [8p](/Inc/8p/8p.md)
-11. [短信发送](/Inc/others/sms.md)<br>
-	  [发送短信验证码验证](/Inc/others/catch_sms.md)
+11. [短信发送](/Inc/others/sms.md)&nbsp;&nbsp;&nbsp;&nbsp;[发送短信验证码验证](/Inc/others/catch_sms.md)
 12. [select2](/Inc/select2/select2.md)
 13. [javascript](/Inc/javascript/js.md)
 14. [80端口被占用](/Inc/others/80.md)
@@ -76,3 +75,4 @@
 28. [php errors](/Inc/php/errors.md)
 29. [Hbuilder ios 打包](https://zhuanlan.zhihu.com/p/34483492)
 30. [guzzlehttp](/Inc/others/guzzlehttp.md)
+31. [HAProxy](http://www.ttlsa.com/linux/haproxy-study-tutorial/)

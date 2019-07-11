@@ -54,6 +54,12 @@
 
 		tar -xvf mysql-8.0.16-linux-glibc2.12-x86_64.tar
 		
+	ps :会生成三个tar.xz文件包 xz -d 进行解压 如果提示 commang is not found `yum install xz`
+	
+		xz -d mysql-8.0.16-linux-glibc2.12-x86_64.tar.xz 
+		
+		tar -xvf mysql-8.0.16-linux-glibc2.12-x86_64.tar
+		
 3. 移动并重命名
 
 		mv mysql-8.0.16-linux-glibc2.12-x86_64 /usr/local/mysql
