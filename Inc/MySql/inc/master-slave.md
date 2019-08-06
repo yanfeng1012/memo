@@ -35,11 +35,6 @@
 
 		  mysql> CHANGE MASTER TO MASTER_HOST='192.168.252.220', MASTER_USER='mysql221', MASTER_PASSWORD='mysql_221', MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=0;
 
-- 锁/解库
-
-	FLUSH TABLES WITH READ LOCK;	  
-	UNLOCK TABLES;
-	
 PS: 其中：MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=0;可以在主库使用命令show master status;进行查看，可做调整。
 
 - 启动从库复制线程
@@ -70,6 +65,11 @@ PS: 其中：MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=0;可以在主�
 	- Slave_IO_Running： Yes #读取主程序二进制日志的I/O线程是否正在运行
 	- Slave_SQL_Running： Yes #执行读取主服务器中二进制日志事件的SQL线程是否正在运行。与I/O线程一样
 	- Seconds_Behind_Master #是否为0，0就是已经同步了
+	
+- 锁/解库
+
+		FLUSH TABLES WITH READ LOCK;	  
+		UNLOCK TABLES;	
 	
 ##参考资料
 [https://jasonhzy.github.io/2016/02/05/master-slave/](https://jasonhzy.github.io/2016/02/05/master-slave/)
