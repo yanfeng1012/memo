@@ -46,3 +46,9 @@
 			cache:clear --env=dev/prod 
 
 3. [Doctrine 关联映射](./mapping.md)
+
+4. 清除缓存
+
+		php bin/console doctrine:cache:clear-metadata --env=prod
+		php bin/console doctrine:cache:clear-query --env=prod
+		php bin/console doctrine:cache:clear-result --env=prod
