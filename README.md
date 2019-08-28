@@ -78,3 +78,4 @@
 30. [guzzlehttp](/Inc/others/guzzlehttp.md)
 31. [HAProxy](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
 32. [tcp抓包](https://www.cnblogs.com/chenpingzhao/p/9108570.html)
+33. [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
