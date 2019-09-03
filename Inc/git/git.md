@@ -5,3 +5,4 @@
 - [window 删除凭据](/Inc/git/git/delete.md)
 - [git rebase 变基](/Inc/git/git/rebase.md)
 - [Linux 变更 版本](https://blog.csdn.net/t3369/article/details/79562853)
+- [git撤销commit](https://www.cnblogs.com/ningkyolei/p/4334990.html)
