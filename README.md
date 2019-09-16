@@ -63,7 +63,7 @@
 15. [验证码插件无法正常加载](/Inc/others/captcha.md)
 16. [xunsearch](/Inc/xunsearch/xunsearch.md)
 17. [redis](/Inc/others/redis.md)
-18. [MarkDown 语法](https://www.jianshu.com/p/b03a8d7b1719) [MarkDown emoji](https://www.cnblogs.com/chenych/p/8623353.html)
+18. [MarkDown 语法](https://www.jianshu.com/p/b03a8d7b1719) 
 19. [zend studio for mac 启动失败](/Inc/others/zend.md)
 20. [vmWarre Funsion 8](/Inc/others/vmware.md)
 21. [git cannot open git-upload-pack](/Inc/others/git.md)
