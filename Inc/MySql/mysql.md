@@ -23,3 +23,4 @@
 16. [mysql bin_log](/Inc/MySql/inc/binlog.md)
 17. [linux 安装 MySQL 5.7.26](/Inc/MySql/inc/install5.7.26.md)
 18. [linux 安装 MySQL 8.0.16](/Inc/MySql/inc/install8.0.16.md)
+19. [mysql 主从 error 1032](https://blog.51cto.com/suifu/1845457)
