@@ -21,3 +21,4 @@
 - [HAProxy](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
 - [tcp抓包](https://www.cnblogs.com/chenpingzhao/p/9108570.html)
 - [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
+- [发布包到packagist](https://blog.csdn.net/weixin_33896069/article/details/89774893)
