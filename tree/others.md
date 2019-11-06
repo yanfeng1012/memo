@@ -22,3 +22,4 @@
 - [tcp抓包](https://www.cnblogs.com/chenpingzhao/p/9108570.html)
 - [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
 - [发布包到packagist](https://blog.csdn.net/weixin_33896069/article/details/89774893)
+- 数组指针和指针数组的区别 [参考1](https://www.cnblogs.com/dan-Blog/articles/8866513.html)&nbsp; &nbsp;[参考2](https://blog.csdn.net/weibo1230123/article/details/81449593)
