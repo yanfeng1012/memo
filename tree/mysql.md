@@ -27,7 +27,8 @@
 18. [linux 安装 MySQL 8.0.16](/Inc/MySql/inc/install8.0.16.md)
 19. [mysql 主从 error 1032](https://blog.51cto.com/suifu/1845457)
 20. [into outfile](https://www.jianshu.com/p/da3d8e8de237)
-21. 清空表/截断表
+21. [mysql 1093](https://blog.csdn.net/qq_33674639/article/details/78875082)
+22. 清空表/截断表
 
 	清空表：`delete from users`
 
