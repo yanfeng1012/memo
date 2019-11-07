@@ -6,3 +6,4 @@
 - [PHP Excel](https://github.com/PHPOffice/PhpSpreadsheet)
 - [PHP declare](https://www.php.cn/php-weizijiaocheng-370428.html)
 - [PHP XSS](https://www.jb51.net/article/158303.htm)
+- PHP7 新特性 [菜鸟教程](https://www.runoob.com/php/php7-new-features.html)  [CSDN](https://www.runoob.com/php/php7-new-features.html)
