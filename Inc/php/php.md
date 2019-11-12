@@ -179,6 +179,6 @@
 
 19. `current()`
 
-		输出数组中的当前元素的值
+		输出数组中的当前元素(指针)的值
 		eg: $people = array("Peter", "Joe", "Glenn", "Cleveland");
 		echo current($people) . "<br>";
