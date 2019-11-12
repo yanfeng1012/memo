@@ -172,8 +172,13 @@
 
 		dechex() 函数把十进制转换为十六进制。
 		
-18. `escapeshellarg` 
+18. `escapeshellarg()` 
 
 		 把字符串转码为可以在 shell 命令里使用的参数
 		 eg: system('ls '.escapeshellarg($dir));
 
+19. `current()`
+
+		输出数组中的当前元素的值
+		eg: $people = array("Peter", "Joe", "Glenn", "Cleveland");
+		echo current($people) . "<br>";
