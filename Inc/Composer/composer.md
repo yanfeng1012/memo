@@ -38,6 +38,8 @@
 
 	$ composer config repo.packagist composer https://packagist.laravel-china.org
 	
+## [阿里云 Composer 全量镜像](http://www.centphp.com/view/153)
+	
 ## composer 配置parameters.yml不默认生成
 
 - 第一种办法
