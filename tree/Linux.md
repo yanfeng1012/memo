@@ -19,3 +19,4 @@
  - [centos6.9安装vnc server](https://blog.csdn.net/andyguan01_2/article/details/86087811)
  - [traceroute](http://baijiahao.baidu.com/s?id=1597880263100015198&wfr=spider&for=pc)
  - [rsync](/Inc/linux/rsync.md)
+ - [linux cache 过高](https://www.cnblogs.com/rocky-AGE-24/p/7629500.html)
