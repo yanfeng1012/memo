@@ -20,3 +20,4 @@
  - [traceroute](http://baijiahao.baidu.com/s?id=1597880263100015198&wfr=spider&for=pc)
  - [rsync](/Inc/linux/rsync.md)
  - [linux cache 过高](https://www.cnblogs.com/rocky-AGE-24/p/7629500.html)
+ - [screen 用法](https://blog.csdn.net/qq_28832135/article/details/79831700)
