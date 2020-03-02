@@ -39,3 +39,10 @@
 	>截断表可以用于删除表中 的所有数据。截断表命令还会回收所有索引的分配页。截断表的执行速度与不带where子句的delete（删除）命令相同，甚至比它还要快。 delete（删除）一次删除一行数据，并且将每一行被删除的数据都作为一个事务记录日志；而truncate （截断）表则回收整个数据页，只记录很少的日志项。delete（删除）和truncate（截断）都会回收被数据占用的空间，以及相关的索引。只有表的 拥有者可以截断表。
 
 	>另外，truncate表之后，如果有自动主键的话，会恢复成默认值。
+	
+23. 慢日志
+
+		  # slow query log
+		  slow_query_log_file = "/usr/local/mysql/query_slow.log" 
+		  slow_query_log = 1 
+		  long_query_time = '0.8'  
