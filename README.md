@@ -7,7 +7,8 @@
  - [firewall](/Inc/linux/firewall_command.md)
  - [DefaultConfiguration](/Inc/linux/DefaultConfiguration.md)
  - [Linux_shell_login](/Inc/linux/shell_login.md)
- - [crontab](/Inc/linux/crontab.md)&nbsp;&nbsp;&nbsp;&nbsp;[Linux定时任务](https://www.cnblogs.com/zoulongbin/p/6187238.html)
+ - [crontab](/Inc/linux/crontab.md)
+ - [Linux定时任务](https://www.cnblogs.com/zoulongbin/p/6187238.html)
  - [Connection reset by peer原理解析](https://blog.csdn.net/yangguosb/article/details/79794571)
  - [CentOS Local yum repo](/Inc/linux/yum.md)
  - [linux 网卡配置详解](/Inc/linux/ifconfig.md)
@@ -20,7 +21,7 @@
  - [traceroute](http://baijiahao.baidu.com/s?id=1597880263100015198&wfr=spider&for=pc)
  - [rsync](/Inc/linux/rsync.md)
  - [linux cache 过高](https://www.cnblogs.com/rocky-AGE-24/p/7629500.html)
- - [screen 用法](https://blog.csdn.net/qq_28832135/article/details/79831700)	
+ - [screen 用法](https://blog.csdn.net/qq_28832135/article/details/79831700)
 
 ## nginx ##
 
@@ -32,52 +33,27 @@
 
 ## mysql ##
 
-- [mysql 语法汇总](/Inc/MySql/inc/mysql.md)
-- [grant 授权](/Inc/MySql/inc/grant.md)
-- [创建用户（user）](/Inc/MySql/inc/user.md)
-- [confguire](/Inc/MySql/inc/confguire.md)
-- [sql_mode](/Inc/MySql/inc/sql_mode.md)
-- [update root password](/Inc/MySql/inc/update_root_password.md)
-- [mysql query](/Inc/MySql/inc/query.md)&nbsp;&nbsp;&nbsp;&nbsp;MySQL查询当天、本周、本月、上一个月的数据
-- [find_in_set()](/Inc/MySql/inc/find_in_set.md) &nbsp;&nbsp;&nbsp;&nbsp; MySQL中find_in_set()函数的使用
-- [mysql 主从配置](/Inc/MySql/inc/master-slave.md)
-- [mysql log config](/Inc/MySql/inc/log-config.md)
-- [mysql8 errors](/Inc/MySql/inc/mysql8.md)
-- mysql 外键
-      
-        SET FOREIGN_KEY_CHECKS=0; //取消外键
-        SET FOREIGN_KEY_CHECKS=1; //启用外键
-        
+- [mysql 语法汇总](/Inc/MySql/mysql.md)
+- [grant 授权](/Inc/MySql/grant.md)
+- [创建用户（user）](/Inc/MySql/user.md)
+- [confguire](/Inc/MySql/confguire.md)
+- [sql_mode](/Inc/MySql/sql_mode.md)
+- [update root password](/Inc/MySql/update_root_password.md)
+- [mysql query](/Inc/MySql/query.md)&nbsp;&nbsp;&nbsp;&nbsp;MySQL查询当天、本周、本月、上一个月的数据
+- [`find_in_set()`](/Inc/MySql/find_in_set.md) &nbsp;&nbsp;&nbsp;&nbsp; MySQL中`find_in_set()`函数的使用
+- [mysql 主从配置](/Inc/MySql/master-slave.md)
+- [mysql log config](/Inc/MySql/log-config.md)
+- [mysql8 errors](/Inc/MySql/mysql8.md)
 - [mysql 关键字和保留字](https://dev.mysql.com/doc/refman/8.0/en/keywords.html)
-- MySQL导出
-	
-        mysqldump -u 用户名 -p dbname > dbname.sql
-	
 - [mysql 数据去重](https://blog.csdn.net/n950814abc/article/details/82284838)
-- [mysql bin_log](/Inc/MySql/inc/binlog.md)
-- [linux 安装 MySQL 5.7.26](/Inc/MySql/inc/install5.7.26.md)
-- [linux 安装 MySQL 8.0.16](/Inc/MySql/inc/install8.0.16.md)
+- [mysql bin_log](/Inc/MySql/binlog.md)
+- [linux 安装 MySQL 5.7.26](/Inc/MySql/install5.7.26.md)
+- [linux 安装 MySQL 8.0.16](/Inc/MySql/install8.0.16.md)
 - [mysql 主从 error 1032](https://blog.51cto.com/suifu/1845457)
 - [into outfile](https://www.jianshu.com/p/da3d8e8de237)
 - [mysql 1093](https://blog.csdn.net/qq_33674639/article/details/78875082)
-- 清空表/截断表
-	
-	清空表：`delete from users`
-	
-	>清空表只是清空表中的逻辑数据，但是物理数据不清除，如主键值、索引等不被清除，还是原来的值。
-	
-	截断表：`truncate table users`
-	
-	>截断表可以用于删除表中 的所有数据。截断表命令还会回收所有索引的分配页。截断表的执行速度与不带where子句的delete（删除）命令相同，甚至比它还要快。 delete（删除）一次删除一行数据，并且将每一行被删除的数据都作为一个事务记录日志；而truncate （截断）表则回收整个数据页，只记录很少的日志项。delete（删除）和truncate（截断）都会回收被数据占用的空间，以及相关的索引。只有表的 拥有者可以截断表。
-	
-	>另外，truncate表之后，如果有自动主键的话，会恢复成默认值。
-	
-- 慢日志
-	
-		  # slow query log
-		  slow_query_log_file = "/usr/local/mysql/query_slow.log" 
-		  slow_query_log = 1 
-		  long_query_time = '0.8'  
+- [mysql truncate and delete](/Inc/MySql/deleteOrTruncate.md)
+- [mysql slow query log](/Inc/MySql/slowQueryLog.md)
 
 ## PHP ##
 
@@ -87,61 +63,8 @@
 - [PHP Excel](https://github.com/PHPOffice/PhpSpreadsheet)
 - [PHP declare](https://www.php.cn/php-weizijiaocheng-370428.html)
 - [PHP XSS](https://www.jb51.net/article/158303.htm)
-- PHP7 新特性 [菜鸟教程](https://www.runoob.com/php/php7-new-features.html)  [CSDN](https://www.runoob.com/php/php7-new-features.html)
+- **PHP7 新特性** [菜鸟教程](https://www.runoob.com/php/php7-new-features.html)  [CSDN](https://www.runoob.com/php/php7-new-features.html)
 - [stdClass](https://www.jb51.net/article/115487.htm)
-
-## GO ##
-
-- strconv 包
-	`strconv包提供了字符串与简单数据类型之间的类型转换功能。可以将简单类型转换为字符串，也可以将字符串转换为其它简单类型。`
-	- 字符串转int：`Atoi()`
-	- int转字符串: `Itoa()`
-	- ParseTP类函数将string转换为TP类型：`ParseBool()`、`ParseFloat()`、`ParseInt()`、`ParseUint()`。因为string转其它类型可能会失败，所以这些函数都有第二个返回值表示是否转换成功
-	- FormatTP类函数将其它类型转string：`FormatBool()`、`FormatFloat()`、`FormatInt()`、`FormatUint()`
-	- AppendTP类函数用于将TP转换成字符串后append到一个slice中：`AppendBool()`、`AppendFloat()`、`AppendInt()`、`AppendUint()`
-
-- [参考](https://www.cnblogs.com/f-ck-need-u/p/9863915.html)
-
-- [golang import 导入包语法介绍](https://blog.csdn.net/whatday/article/details/98046785)
-
-	- 点操作
-
-	有时候会看到如下的方式导入包：
-
-		import( 
-		    . "fmt" 
-		) 
-		
-	这个点操作的含义就是这个包导入之后在你调用这个包的函数时，你可以省略前缀的包名，也就是前面你调用的：
-
-		fmt.Println( "我爱公园" )
-		
-	可以省略的写成：
-
-		Println( "我爱公园" )
-		
-	- 别名操作
-
-	别名操作顾名思义可以把包命名成另一个用起来容易记忆的名字：
-		
-		import( 
-		    f "fmt" 
-		) 
-		
-	别名操作调用包函数时前缀变成了重命名的前缀，即：
-
-     	f.Println( "我爱北京天安门" )
-	
-	- 下划线操作
-
-	这个操作经常是让很多人费解的一个操作符，请看下面这个 import
-
-		import ( 
-		    “database/sql” 
-		    _ “github.com/ziutek/mymysql/godrv” 
-		) 
-		
-	下滑线 `“_”` 操作其实只是引入该包。当导入一个包时，它所有的 init() 函数就会被执行，但有些时候并非真的需要使用这些包，仅仅是希望它的 init() 函数被执行而已。这个时候就可以使用 `“_”` 操作引用该包了。即使用 `“_”` 操作引用包是无法通过包名来调用包中的导出函数，而是只是为了简单的调用其 init() 函数。
 	 
 ## symfony ##
 
@@ -173,7 +96,13 @@
 - [monolog](/Inc/Monolog/monolog.md)
 - [custom exception](https://symfony.com/doc/3.4/controller/error_pages.html)
 - [workflow](http://www.symfonychina.com/doc/current/components/workflow.html)
-	 
+
+## GO ##
+
+- [strconv](/Inc/go/strconv.md) 
+
+- [golang import 导入包语法介绍](/Inc/go/import.md)
+
 ## redis ##
 
 - [redis](/Inc/others/redis.md)
@@ -218,4 +147,4 @@
 - [tcp抓包](https://www.cnblogs.com/chenpingzhao/p/9108570.html)
 - [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
 - [发布包到packagist](https://blog.csdn.net/weixin_33896069/article/details/89774893)
-- 数组指针和指针数组的区别 [参考1](https://www.cnblogs.com/dan-Blog/articles/8866513.html)&nbsp; &nbsp;[参考2](https://blog.csdn.net/weibo1230123/article/details/81449593)
+- **数组指针和指针数组的区别** [参考1](https://www.cnblogs.com/dan-Blog/articles/8866513.html)&nbsp; &nbsp;[参考2](https://blog.csdn.net/weibo1230123/article/details/81449593)
