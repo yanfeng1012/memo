@@ -103,6 +103,8 @@
 - [strconv](/Inc/go/strconv.md) 
 - [golang import 导入包语法介绍](/Inc/go/import.md)
 - [beego orm](https://beego.me/docs/mvc/model/orm.md)
+- [beego 获取参数](https://beego.me/docs/mvc/controller/params.md)
+
 
 ## redis ##
 
