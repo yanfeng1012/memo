@@ -54,6 +54,7 @@
 - [mysql 1093](https://blog.csdn.net/qq_33674639/article/details/78875082)
 - [mysql truncate and delete](/Inc/MySql/deleteOrTruncate.md)
 - [mysql slow query log](/Inc/MySql/slowQueryLog.md)
+- [mysql union 联合查询](https://www.jianshu.com/p/23d97967f8c5)
 
 ## PHP ##
 
