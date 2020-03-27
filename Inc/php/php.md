@@ -211,3 +211,10 @@
 		eg: $str = "Hello World";
 		    echo str_pad($str,20,".");
 
+23. `array_count_values()`
+
+		统计数组中所有值出现的次数：
+		array_count_values(array)
+		
+		参数  : 	array 必需。规定需要统计数组中所有值出现次数的数组。
+		返回值:   返回一个关联数组，其元素的键名是原数组的值，键值是该值在原数组中出现的次数。
