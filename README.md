@@ -51,11 +51,12 @@
 - [linux 安装 MySQL 5.7.26](/Inc/MySql/install5.7.26.md)
 - [linux 安装 MySQL 8.0.16](/Inc/MySql/install8.0.16.md)
 - [mysql 主从 error 1032](https://blog.51cto.com/suifu/1845457)
-- [into outfile](https://www.jianshu.com/p/da3d8e8de237)
+- [into outfile 导出](https://www.jianshu.com/p/da3d8e8de237)
 - [mysql 1093](https://blog.csdn.net/qq_33674639/article/details/78875082)
 - [mysql truncate and delete](/Inc/MySql/deleteOrTruncate.md)
 - [mysql slow query log](/Inc/MySql/slowQueryLog.md)
 - [mysql union 联合查询](https://www.jianshu.com/p/23d97967f8c5)
+- [mysql view 视图](http://c.biancheng.net/view/2584.html)
 
 ## PHP ##
 
