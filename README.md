@@ -149,4 +149,5 @@
 - [app download](/Inc/others/app_download.md)
 - [wechat sdk](https://github.com/overtrue/wechat)
 - [tcp抓包](https://www.cnblogs.com/chenpingzhao/p/9108570.html)
-- **数组指针和指针数组的区别** [参考1](https://www.cnblogs.com/dan-Blog/articles/8866513.html)&nbsp; &nbsp;[参考2](https://blog.csdn.net/weibo1230123/article/details/81449593)
+- [数组指针](https://www.cnblogs.com/dan-Blog/articles/8866513.html)和[指针数组](https://blog.csdn.net/weibo1230123/article/details/81449593)的区别
+- [github 无法访问](/Inc/others/github.md)
