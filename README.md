@@ -131,6 +131,7 @@
 ## javascript ##
 
 - [javascript](/Inc/javascript/js.md)
+- [myDate97 时间插件](http://www.my97.net/demo/index.htm)
 
 ## z7z8 ##
 
