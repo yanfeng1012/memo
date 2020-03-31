@@ -135,7 +135,7 @@
 
 ## ElasticSearch ##
 
-- [ES](/Inc/others/es.md)
+- [ES 基础](/Inc/others/es.md)
 - [ES 时间范围查询](https://blog.csdn.net/weixin_30608131/article/details/98046992)
 
 ## z7z8 ##
