@@ -140,6 +140,10 @@
 - [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch)
 - [es-php](https://www.elastic.co/guide/cn/elasticsearch/php/current/index.html)
 
+## VIM
+
+- [vim 基础](https://www.runoob.com/linux/linux-vim.html)
+
 ## z7z8 ##
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
