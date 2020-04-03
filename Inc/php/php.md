@@ -187,9 +187,9 @@
 
 		创建一个包含变量名和它们的值的数组：
 		eg: $firstname = "Peter";
-			 $lastname = "Griffin";
-			 $age = "41";
-			 $result = compact("firstname", "lastname", "age");
+		    $lastname = "Griffin";
+		    $age = "41";
+		    $result = compact("firstname", "lastname", "age");
 			 
 21. [PHP可变参数](https://blog.csdn.net/weixin_34303897/article/details/88036724)
 
