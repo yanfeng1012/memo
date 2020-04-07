@@ -1,4 +1,4 @@
-# My Memo :elephant: :elephant:
+# My Memo :earth_asia: :cn: :thumbsup: :thumbsup: :thumbsup:
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) ##
 
@@ -142,6 +142,11 @@
 - [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch)
 - [es-php](https://www.elastic.co/guide/cn/elasticsearch/php/current/index.html)
 
+## HAProxy
+
+- [简介](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
+- [proxy protocol](https://wangbin.io/blog/it/haproxy-proxy-protocol.html)
+
 ## VIM
 
 - [vim 基础](https://www.runoob.com/linux/linux-vim.html)
@@ -149,7 +154,6 @@
 ## z7z8 ##
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
-- [HAProxy](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
 - [8p](/Inc/8p/8p.md)
 - [guzzlehttp](/Inc/others/guzzlehttp.md)
 - [circlechar](/Inc/others/circlechar.md)
