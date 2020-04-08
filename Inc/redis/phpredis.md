@@ -64,7 +64,7 @@
 - 为指定key追加值到原值末尾，若key不存在则相对于set()函数。
 >$ret = $redis->append('mystr', 'haha');
 
-###Hash操作
+### Hash操作
 
 - 为hash表中的字段赋值。成功返回1，失败返回0。若hash表不存在会先创建表再赋值，若字段已存在会覆盖旧值。
 >$ret = $redis->hSet('user', 'realname', 'jetwu');
@@ -105,7 +105,7 @@
 - 为hash表中的指定字段加上指定浮点数增量值。
 >$ret = $redis->hIncrBy('user', 'age', 1.5);
 
-###List操作
+### List操作
 
 - 从list头部插入一个值。
 > $ret = $redis->lPush('city', 'guangzhou');
@@ -162,7 +162,7 @@
 
 >$ret = $redis->ltrim('city', 1, 4);
 
-###Set操作
+### Set操作
 
 - 将一个元素加入集合，已经存在集合中的元素则忽略。若集合不存在则先创建，若key不是集合类型则返回false，若元素已存在返回0，插入成功返回1。
 >$ret = $redis->sAdd('myset', 'hello');
