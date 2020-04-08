@@ -31,6 +31,7 @@
 - [nginx 413](/Inc/nginx/413.md)
 - [mac brew lnmp](/Inc/nginx/brew_install.md)
 - [open_basedir](/Inc/nginx/open_basedir.md)
+- [隐藏Nginx版本](https://www.cnblogs.com/caidingyu/p/10782453.html)
 
 ## mysql ##
 
@@ -71,6 +72,7 @@
 - [stdClass](https://www.jb51.net/article/115487.htm)
 - [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
 - [php 数组排序](https://www.runoob.com/php/php-arrays-sort.html)
+- [隐藏PHP版本](https://www.jb51.net/article/67351.htm)
 	 
 ## symfony ##
 
