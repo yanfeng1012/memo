@@ -1,4 +1,4 @@
-# My Memo :earth_asia: :cn: :thumbsup: :thumbsup: :thumbsup:
+# My Memo :earth_asia: :cn: :thumbsup:
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) ##
 
@@ -114,8 +114,9 @@
 
 ## redis ##
 
-- [redis](/Inc/others/redis.md)
+- [redis](/Inc/redis/redis.md)
 - [常用命令](http://doc.redisfans.com/)
+- [PHP redis](/Inc/redis/phpredis.md)
 
 ## Git ##
 
