@@ -1,6 +1,6 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
-## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) ##
+## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
  - [常用命令总结](/Inc/linux/command.md)
  - [进阶](/Inc/linux/senior_command.md)
@@ -24,7 +24,7 @@
  - [screen 用法](https://blog.csdn.net/qq_28832135/article/details/79831700)
  - [tcpdump](https://www.cnblogs.com/ggjucheng/archive/2012/01/14/2322659.html)
 
-## nginx ##
+## nginx 
 
 - [nginx vhost conf](/Inc/nginx/vhost.md)
 - [lnmp一键安装](/Inc/nginx/lnmp一键安装步骤.md)
@@ -33,7 +33,7 @@
 - [open_basedir](/Inc/nginx/open_basedir.md)
 - [隐藏Nginx版本](https://www.cnblogs.com/caidingyu/p/10782453.html)
 
-## mysql ##
+## mysql 
 
 - [atlas 数据库中间件](/Inc/others/atlas.md)
 - [mysql 语法汇总](/Inc/MySql/mysql.md)
@@ -60,7 +60,7 @@
 - [mysql union 联合查询](https://www.jianshu.com/p/23d97967f8c5)
 - [mysql view 视图](http://c.biancheng.net/view/2584.html)
 
-## PHP ##
+## PHP 
 
 - [PHP 相关](/Inc/php/php.md)
 - [php errors](/Inc/php/errors.md)
@@ -73,8 +73,9 @@
 - [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
 - [php 数组排序](https://www.runoob.com/php/php-arrays-sort.html)
 - [隐藏PHP版本](https://www.jb51.net/article/67351.htm)
+- [php安装sqlsrv扩展](/Inc/symfony/sqlsrv.md)
 	 
-## symfony ##
+## symfony 
 
 - [命令](/Inc/symfony/symfony.md)
 - [控制器中的快捷方式](/Inc/symfony/shortcutmethods.md)
@@ -90,22 +91,28 @@
 - [Raw SQL Query](/Inc/symfony/executeUpdate.md)
 - [KnpPaginatorBundle](/Inc/symfony/KnpPaginatorBundle.md)
 - [phpexcel](/Inc/symfony/phpexcel.md)
-- [php安装sqlsrv扩展](/Inc/symfony/sqlsrv.md)
 - [TableToEntity](/Inc/symfony/TableToEntity.md)
 - [Dotenv Component](/Inc/symfony/env.md)
 - [datafixtures](/Inc/symfony/datafixtures.md)
 - [Event Listenser](/Inc/symfony/eventlistenser.md)
-- [Doctrine Query Functions](/Inc/symfony/queryfunctions.md)
-- [Doctrine querybuilder limit and offset](/Inc/symfony/limit_offset.md)
-- [Doctrine JOIN](/Inc/symfony/join.md)
-- [Twig](/Inc/Twig/twig.md)
-- [macro](/Inc/Twig/twigs/macro.md)
 - [monolog](/Inc/Monolog/monolog.md)
 - [custom exception](https://symfony.com/doc/3.4/controller/error_pages.html)
 - [workflow](http://www.symfonychina.com/doc/current/components/workflow.html)
 - [deploy symfony](/Inc/others/deploysf.md)
 
-## GO ##
+## Doctrine 
+
+- [Doctrine Query Functions](/Inc/symfony/queryfunctions.md)
+- [Doctrine querybuilder limit and offset](/Inc/symfony/limit_offset.md)
+- [Doctrine JOIN](/Inc/symfony/join.md)
+- [Doctrine Cache Result](/Inc/doctrine/cacheResult.md)
+
+## twig 
+
+- [Twig](/Inc/Twig/twig.md)
+- [macro](/Inc/Twig/twigs/macro.md)
+
+## GO 
 
 - [strconv](/Inc/go/strconv.md) 
 - [golang import 导入包语法介绍](/Inc/go/import.md)
@@ -114,31 +121,31 @@
 - [golang实现图片水印效果](https://studygolang.com/articles/673)
 - [golang 激活](https://studygolang.com/articles/25444?fr=sidebar)
 
-## redis ##
+## redis 
 
 - [redis](/Inc/redis/redis.md)
 - [常用命令](http://doc.redisfans.com/)
 - [PHP redis](/Inc/redis/phpredis.md)
 
-## Git ##
+## Git 
 
 - [Git](/Inc/git/git.md)
 - [git cannot open git-upload-pack](/Inc/others/git.md)
 - [git tag](https://www.jianshu.com/p/cdd80dd15593)
 
-## composer ##
+## composer 
 
 - [composer](/Inc/Composer/composer.md)
 - [composer zlib_decode():data error](https://www.cnblogs.com/cxscode/p/7003756.html)
 - [packagist](https://www.jianshu.com/p/6d98eb756826)
 - [发布包到packagist](https://blog.csdn.net/weixin_33896069/article/details/89774893)
 
-## javascript ##
+## javascript 
 
 - [javascript](/Inc/javascript/js.md)
 - [myDate97 时间插件](http://www.my97.net/demo/index.htm)
 
-## ElasticSearch ##
+## ElasticSearch
 
 - [ES 基础](/Inc/others/es.md)
 - [ES 时间范围查询](https://blog.csdn.net/weixin_30608131/article/details/98046992)
@@ -155,7 +162,7 @@
 - [vim 基础](https://www.runoob.com/linux/linux-vim.html)
 - [vim 常用命令](/Inc/vim/vim.md)
 
-## z7z8 ##
+## z7z8
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
 - [8p](/Inc/8p/8p.md)
