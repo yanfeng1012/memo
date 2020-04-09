@@ -153,7 +153,7 @@
 ## VIM
 
 - [vim 基础](https://www.runoob.com/linux/linux-vim.html)
-- [vim 常用命令](/Inc/others/vim.md)
+- [vim 常用命令](/Inc/vim/vim.md)
 
 ## z7z8 ##
 
