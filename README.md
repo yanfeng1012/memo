@@ -120,6 +120,7 @@
 - [beego 获取参数](https://beego.me/docs/mvc/controller/params.md)
 - [golang实现图片水印效果](https://studygolang.com/articles/673)
 - [golang 激活](https://studygolang.com/articles/25444?fr=sidebar)
+- [sockjs-go](https://github.com/igm/sockjs-go)
 
 ## redis 
 
