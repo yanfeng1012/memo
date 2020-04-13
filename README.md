@@ -121,6 +121,8 @@
 - [golang实现图片水印效果](https://studygolang.com/articles/673)
 - [golang 激活](https://studygolang.com/articles/25444?fr=sidebar)
 - [sockjs-go](https://github.com/igm/sockjs-go)
+- [beego toolbox](https://beego.me/docs/module/toolbox.md)
+- [beego httplib](https://beego.me/docs/module/httplib.md)
 
 ## redis 
 
