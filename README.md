@@ -123,6 +123,7 @@
 - [sockjs-go](https://github.com/igm/sockjs-go)
 - [beego toolbox](https://beego.me/docs/module/toolbox.md)
 - [beego httplib](https://beego.me/docs/module/httplib.md)
+- [go mod](https://segmentfault.com/a/1190000018536993)
 
 ## redis 
 
