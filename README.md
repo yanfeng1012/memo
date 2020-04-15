@@ -149,6 +149,9 @@
 - [javascript](/Inc/javascript/js.md)
 - [myDate97 时间插件](http://www.my97.net/demo/index.htm)
 
+## websocket
+- [简介](https://blog.csdn.net/skycto_com/article/details/100516487)
+
 ## ElasticSearch
 
 - [ES 基础](/Inc/others/es.md)
