@@ -124,6 +124,7 @@
 - [beego toolbox](https://beego.me/docs/module/toolbox.md)
 - [beego httplib](https://beego.me/docs/module/httplib.md)
 - [go mod](https://segmentfault.com/a/1190000018536993)
+- [go 断言](https://studygolang.com/articles/3314)
 
 ## redis 
 
