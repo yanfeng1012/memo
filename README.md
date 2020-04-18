@@ -164,6 +164,8 @@
 
 - [简介](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
 - [proxy protocol](https://wangbin.io/blog/it/haproxy-proxy-protocol.html)
+- [HAProxy Websockets config](https://gist.github.com/BartKrol/bdf344ac26c25b0234bc)
+- [Haproxy WebSocket 提前关闭](https://blog.csdn.net/weixin_33720078/article/details/88905641)
 
 ## VIM
 
