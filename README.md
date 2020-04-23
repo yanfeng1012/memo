@@ -172,6 +172,9 @@
 - [vim 基础](https://www.runoob.com/linux/linux-vim.html)
 - [vim 常用命令](/Inc/vim/vim.md)
 
+## UEditor
+- [文件上传配置](/Inc/others/ue_upload_config.md)
+
 ## z7z8
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
