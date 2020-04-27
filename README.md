@@ -99,6 +99,7 @@
 - [custom exception](https://symfony.com/doc/3.4/controller/error_pages.html)
 - [workflow](http://www.symfonychina.com/doc/current/components/workflow.html)
 - [deploy symfony](/Inc/others/deploysf.md)
+- [dotEnv](/Inc/symfony/dotEnv.md)
 
 ## Doctrine 
 
