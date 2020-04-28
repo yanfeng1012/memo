@@ -176,6 +176,9 @@
 ## UEditor
 - [文件上传配置](/Inc/others/ue_upload_config.md)
 
+## SoftExam
+- [海明校验码](/Inc/softexam/ue_upload_config.md)
+
 ## z7z8
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
