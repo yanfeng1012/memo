@@ -1,5 +1,4 @@
-1. [安装PHP7.3.6](./php/install7.3.6.md)
-2. `iconv`  (字符串按要求的字符编码来转换)
+1. `iconv`  (字符串按要求的字符编码来转换)
 
 		iconv ($in_charset ,$out_charset ,$str )
 		eg:
@@ -28,7 +27,7 @@
 		返回值
 		返回转换后的字符串， 或者在失败时返回 FALSE。
 
-3. 查找字符出现的位置
+2. 查找字符出现的位置
 
 		strpos     - 查找字符串首次出现的位置<br>
 		stripos()  - 查找字符串在另一字符串中第一次出现的位置（不区分大小写）<br>
@@ -37,11 +36,11 @@
 		用法
 		strpos(string,find,start)
 
-4. php字符串驼峰转小写和下划线
+3. php字符串驼峰转小写和下划线
 
 		$tableName = strtolower(preg_replace('/(?<=[a-z])([A-Z])/', '_$1',$tableName))
 
-5. php 接口（interface）
+4. php 接口（interface）
 
 		interface usb{
 		    const brand = 'siemens';    // 接口的属性必须是常量
@@ -75,8 +74,8 @@
 		    }
 		}
 		
-6. [php 比较两个数组的差异](./php/array.md)
-7. php 获取当前域名
+5. [php 比较两个数组的差异](./php/array.md)
+6. php 获取当前域名
 
 		echo 'SERVER_NAME：'.$_SERVER['SERVER_NAME'];  //获取当前域名（不含端口号）
 		echo '<p>';
@@ -86,11 +85,11 @@
 
 		echo 'REQUEST_URI：'.$_SERVER['REQUEST_URI'];//获取当前域名的后缀 
 		
-8. `str_shuffle()`
+7. `str_shuffle()`
 
 		str_shuffle() 函数随机打乱字符串中的所有字符。
 		
-9. `unlink()` 函数
+8. `unlink()` 函数
 
 		unlink() 函数删除文件。
 		若成功，则返回 true，失败则返回 false。
@@ -100,15 +99,15 @@
 		filename	必需。规定要删除的文件。
 		context	可选。规定文件句柄的环境。Context 是可修改流的行为的一套选项。
 		
-10. `emepty()`
+9. `emepty()`
 
 		empty(0) or empty(null) === true 
 	
-11. `strlen() && mb_strlen()`
+10. `strlen() && mb_strlen()`
 
 		函数返回字符串的长度
 
-12. `extract()`
+11. `extract()`
 
 	- 将键值 "Cat"、"Dog" 和 "Horse" 赋值给变量 $a、$b 和 $c：
 	
@@ -138,7 +137,7 @@
 		
 		3. 该函数返回成功导入到符号表中的变量数目。
 	
-13. 压缩 解压缩函数
+12. 压缩 解压缩函数
 
 		压缩函数：gzcompress gzdeflate gzencode
 		
@@ -150,7 +149,7 @@
 		
 		gzencode使用的是GZIP格式；
 		
-14. `eregi()`
+13. `eregi()`
 
 	>`eregi()`函数在一个字符串搜索指定的模式的字符串。搜索不区分大小写。`Eregi()`可以特别有用的检查有效性字符串,如密码。
 	
@@ -159,31 +158,31 @@
 
 	>eg.eregi ("/\w{8,10}/", $password)
 	
-15. `strcmp()`比较字符串
+14. `strcmp()`比较字符串
 
 		int strcmp ( string $str1 , string $str2 )
 		// 参数 str1第一个字符串。str2第二个字符串。如果 str1 小于 str2 返回 < 0； 如果 str1 大于 str2 返回 > 0；如果两者相等，返回 0。
 
-16. `intval()`
+15. `intval()`
 
 		intval() 获取变量的整数值
 	
-17. `dechex()`
+16. `dechex()`
 
 		dechex() 函数把十进制转换为十六进制。
 		
-18. `escapeshellarg()` 
+17. `escapeshellarg()` 
 
 		 把字符串转码为可以在 shell 命令里使用的参数
 		 eg: system('ls '.escapeshellarg($dir));
 
-19. `current()`
+18. `current()`
 
 		输出数组中的当前元素(指针)的值
 		eg: $people = array("Peter", "Joe", "Glenn", "Cleveland");
 		echo current($people) . "<br>";
 
-20. `compact()`
+19. `compact()`
 
 		创建一个包含变量名和它们的值的数组：
 		eg: $firstname = "Peter";
@@ -191,9 +190,9 @@
 		    $age = "41";
 		    $result = compact("firstname", "lastname", "age");
 			 
-21. [PHP可变参数](https://blog.csdn.net/weixin_34303897/article/details/88036724)
+20. [PHP可变参数](https://blog.csdn.net/weixin_34303897/article/details/88036724)
 
-22. `str_pad()`
+21. `str_pad()`
 
 		函数把字符串填充为新的长度
 		
@@ -211,7 +210,7 @@
 		eg: $str = "Hello World";
 		    echo str_pad($str,20,".");
 
-23. `array_count_values()`
+22. `array_count_values()`
 
 		统计数组中所有值出现的次数：
 		array_count_values(array)
@@ -219,7 +218,7 @@
 		参数  : 	array 必需。规定需要统计数组中所有值出现次数的数组。
 		返回值:   返回一个关联数组，其元素的键名是原数组的值，键值是该值在原数组中出现的次数。
 		
-24. [`array_multisort()`](https://blog.csdn.net/qq_27229113/article/details/81219949)
+23. [`array_multisort()`](https://blog.csdn.net/qq_27229113/article/details/81219949)
 
 		返回一个排序数组
 		array_multisort(array1,sorting order,sorting type,array2,array3...)
