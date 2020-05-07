@@ -127,6 +127,7 @@
 - [beego httplib](https://beego.me/docs/module/httplib.md)
 - [go mod](https://segmentfault.com/a/1190000018536993)
 - [go 断言](https://studygolang.com/articles/3314)
+- [Go By Example](https://gobyexample-cn.github.io/)
 
 ## redis 
 
@@ -178,6 +179,7 @@
 - [文件上传配置](/Inc/others/ue_upload_config.md)
 
 ## SoftExam
+
 - [海明校验码](/Inc/softexam/haiming.md)
 
 ## z7z8
