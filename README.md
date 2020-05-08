@@ -181,6 +181,7 @@
 ## SoftExam
 
 - [海明校验码](/Inc/softexam/haiming.md)
+- [内聚](/Inc/softexam/cohesion.md)
 
 ## z7z8
 
