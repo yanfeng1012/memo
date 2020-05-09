@@ -169,7 +169,7 @@
 - [proxy protocol](https://wangbin.io/blog/it/haproxy-proxy-protocol.html)
 - [HAProxy Websockets config](https://gist.github.com/BartKrol/bdf344ac26c25b0234bc)
 - [Haproxy WebSocket 提前关闭](https://blog.csdn.net/weixin_33720078/article/details/88905641)
-- [Haproxy Nginx Get Real Ip](/Inc/others/realip.md)
+- [Haproxy Nginx Get Real IP](/Inc/others/realip.md)
 
 ## VIM
 
