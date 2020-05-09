@@ -1,4 +1,6 @@
-## Get Real IP
+## Get Real IP 
+
+[参考1](https://blog.csdn.net/weixin_34254823/article/details/92356231) [参考2](https://www.jianshu.com/p/0309cb5e7e76)
 
 ### 编译Nginx
 
