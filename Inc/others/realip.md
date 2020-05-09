@@ -6,11 +6,19 @@
 
 - 查看Nginx版本及其编译参数
 
-		[root@sft-sqjz-app-01 sbin]# ./nginx -V		nginx version: nginx/1.16.1		built by gcc 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) 		built with OpenSSL 1.1.1b  26 Feb 2019		TLS SNI support enabled		configure arguments: --user=www --group=www --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module --with-http_sub_module --with-stream --with-stream_ssl_module --with-openssl=/root/lnmp1.6-full/src/openssl-1.1.1b --with-openssl-opt=enable-weak-ssl-ciphers
+		[root@sft-sqjz-app-01 sbin]# ./nginx -V
+		nginx version: nginx/1.16.1
+		built by gcc 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) 
+		built with OpenSSL 1.1.1b  26 Feb 2019
+		TLS SNI support enabled
+		configure arguments: --user=www --group=www --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module --with-http_sub_module --with-stream --with-stream_ssl_module --with-openssl=/root/lnmp1.6-full/src/openssl-1.1.1b --with-openssl-opt=enable-weak-ssl-ciphers
 		
-- 重新编译Nginx 增加 `--with-http_realip_module` å编译参数
+- 重新编译Nginx 增加 `--with-http_realip_module` 编译参数
 
-		[root@sft-sqjz-app-01 ~]# cd ~/nginx-1.16.1		[root@sft-sqjz-app-01 nginx-1.16.1]# ./configure --user=www --group=www --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module --with-http_sub_module --with-stream --with-stream_ssl_module --with-openssl=/root/lnmp1.6-full/src/openssl-1.1.1b --with-openssl-opt=enable-weak-ssl-ciphers --with-http_realip_module- 编译Nginx
+		[root@sft-sqjz-app-01 ~]# cd ~/nginx-1.16.1
+		[root@sft-sqjz-app-01 nginx-1.16.1]# ./configure --user=www --group=www --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module --with-http_sub_module --with-stream --with-stream_ssl_module --with-openssl=/root/lnmp1.6-full/src/openssl-1.1.1b --with-openssl-opt=enable-weak-ssl-ciphers --with-http_realip_module
+
+- 编译Nginx
 
 		[root@sft-sqjz-app-01 nginx-1.16.1]# make
 		
@@ -33,14 +41,16 @@
 		nginx:configuration file /usr/local/nginx/conf/nginx.conf test issuccessful
 		
 - 修改 nginx 配置文件
-		server
+
+		server
 		     {
-		         ...				  set_real_ip_from  192.168.124.28;
-				  set_real_ip_from  127.0.0.1; // 上游代理ip 可多个
-				  real_ip_header    X-Forwarded-For;
-				  real_ip_recursive on;
-				  ...
-			  }
+		       ...
+			 set_real_ip_from  192.168.124.28;
+			 set_real_ip_from  127.0.0.1; // 上游代理ip 可多个
+			 real_ip_header    X-Forwarded-For;
+			 real_ip_recursive on;
+		       ...
+		     }
 		
 - 重启Nginx
 
@@ -60,7 +70,10 @@
 
 - 修改haproxy配置文件
 
-		defaults    		...    		option httpclose     		option forwardfor
+		defaults
+    		...
+    		option httpclose 
+    		option forwardfor
     		
 - 重启haproxy
 
@@ -76,4 +89,4 @@
 
 			/usr/local/haproxy/sbin/haproxy -f /usr/local/haproxy/haproxy.cfg
 
-
+
