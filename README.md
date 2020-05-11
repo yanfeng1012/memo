@@ -183,6 +183,8 @@
 
 - [海明校验码](/Inc/softexam/haiming.md)
 - [内聚](/Inc/softexam/cohesion.md)
+- [面向对象](/Inc/softexam/object-oriented.md)
+- [UML](/Inc/softexam/uml.md)
 
 ## z7z8
 
