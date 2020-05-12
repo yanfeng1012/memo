@@ -59,6 +59,7 @@
 - [mysql slow query log](/Inc/MySql/slowQueryLog.md)
 - [mysql union 联合查询](https://www.jianshu.com/p/23d97967f8c5)
 - [mysql view 视图](http://c.biancheng.net/view/2584.html)
+- [mysql 优化](https://blog.csdn.net/ki8qzvka6gz4n450m/article/details/88704142)
 
 ## PHP 
 
