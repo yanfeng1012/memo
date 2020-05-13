@@ -187,6 +187,7 @@
 - [面向对象](/Inc/softexam/object-oriented.md)
 - [UML](/Inc/softexam/uml.md)
 - [文法](/Inc/softexam/grammar.md)
+- [错误](/Inc/softexam/error.md)
 
 ## z7z8
 
