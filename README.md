@@ -188,6 +188,7 @@
 - [UML](/Inc/softexam/uml.md)
 - [文法](/Inc/softexam/grammar.md)
 - [错误](/Inc/softexam/error.md)
+- [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
 
 ## z7z8
 
