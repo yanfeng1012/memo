@@ -135,6 +135,12 @@
 - [菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)
 - [函数](https://www.runoob.com/cprogramming/c-functions.html)
 
+## C++
+- [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
+
+## Java
+- [菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
+
 ## redis 
 
 - [redis](/Inc/redis/redis.md)
