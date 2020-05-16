@@ -23,6 +23,7 @@
  - [linux cache 过高](https://www.cnblogs.com/rocky-AGE-24/p/7629500.html)
  - [screen 用法](https://blog.csdn.net/qq_28832135/article/details/79831700)
  - [tcpdump](https://www.cnblogs.com/ggjucheng/archive/2012/01/14/2322659.html)
+ - [update pwd](https://www.cnblogs.com/pzzning/p/10482962.html)
 
 ## nginx 
 
