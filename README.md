@@ -130,6 +130,11 @@
 - [go 断言](https://studygolang.com/articles/3314)
 - [Go By Example](https://gobyexample-cn.github.io/)
 
+## C
+
+- [菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)
+- [函数](https://www.runoob.com/cprogramming/c-functions.html)
+
 ## redis 
 
 - [redis](/Inc/redis/redis.md)
@@ -180,7 +185,7 @@
 ## UEditor
 - [文件上传配置](/Inc/others/ue_upload_config.md)
 
-## SoftExam
+## The software designer
 
 - [网络与信息安全](/Inc/softexam/network.md)
 - [海明校验码](/Inc/softexam/haiming.md)
