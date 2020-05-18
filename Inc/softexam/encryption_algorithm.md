@@ -24,7 +24,7 @@
 
 ### 3DES算法
 
->是**<font color="red">`基于 DES`</font>** 的 对称算法，对 一块数据 用 **<font color="red">`三个不同的密钥`</font>** 进行 **<font color="red">`三次加密`</font>**，强度更高。
+>是 **<font color="red">`基于 DES`</font>** 的 对称算法，对 一块数据 用 **<font color="red">`三个不同的密钥`</font>** 进行 **<font color="red">`三次加密`</font>**，强度更高。
 
 ### AES算法
 
