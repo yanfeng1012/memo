@@ -138,6 +138,7 @@
 
 ## C++
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
+- [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
 
 ## Java
 - [菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
