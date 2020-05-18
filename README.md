@@ -18,6 +18,7 @@
 - [霍夫曼编码](https://blog.csdn.net/sky15732625340/article/details/72084752)
 - [系统可靠度](/Inc/softexam/reliability.md)
 - [加密算法](/Inc/softexam/encryption_algorithm.md)
+- [沟通路径](/Inc/softexam/communication_path.md)
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
