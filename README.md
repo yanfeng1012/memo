@@ -1,12 +1,30 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
+## [uni-app](https://uniapp.dcloud.io/README)
+
+- [白话uni-app](https://ask.dcloud.net.cn/article/35657)
+
+## The software designer
+
+- [进制转换](https://blog.csdn.net/yuanxiang01/article/details/82503568)
+- [网络与信息安全](/Inc/softexam/network.md)
+- [海明校验码](/Inc/softexam/haiming.md)
+- [内聚](/Inc/softexam/cohesion.md)
+- [面向对象](/Inc/softexam/object-oriented.md)
+- [UML](/Inc/softexam/uml.md)
+- [文法](/Inc/softexam/grammar.md)
+- [错误](/Inc/softexam/error.md)
+- [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
+- [霍夫曼编码](https://blog.csdn.net/sky15732625340/article/details/72084752)
+- [系统可靠度](/Inc/softexam/reliability.md)
+
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
  - [常用命令总结](/Inc/linux/command.md)
  - [进阶](/Inc/linux/senior_command.md)
  - [firewall](/Inc/linux/firewall_command.md)
  - [DefaultConfiguration](/Inc/linux/DefaultConfiguration.md)
- - [Linux_shell_login](/Inc/linux/shell_login.md)
+ - [`Linux_shell_login`](/Inc/linux/shell_login.md)
  - [crontab](/Inc/linux/crontab.md)
  - [Linux定时任务](https://www.cnblogs.com/zoulongbin/p/6187238.html)
  - [Connection reset by peer原理解析](https://blog.csdn.net/yangguosb/article/details/79794571)
@@ -191,21 +209,8 @@
 - [vim 常用命令](/Inc/vim/vim.md)
 
 ## UEditor
+
 - [文件上传配置](/Inc/others/ue_upload_config.md)
-
-## The software designer
-
-- [进制转换](https://blog.csdn.net/yuanxiang01/article/details/82503568)
-- [网络与信息安全](/Inc/softexam/network.md)
-- [海明校验码](/Inc/softexam/haiming.md)
-- [内聚](/Inc/softexam/cohesion.md)
-- [面向对象](/Inc/softexam/object-oriented.md)
-- [UML](/Inc/softexam/uml.md)
-- [文法](/Inc/softexam/grammar.md)
-- [错误](/Inc/softexam/error.md)
-- [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
-- [霍夫曼编码](https://blog.csdn.net/sky15732625340/article/details/72084752)
-- [系统可靠度](/Inc/softexam/reliability.md)
 
 ## z7z8
 
