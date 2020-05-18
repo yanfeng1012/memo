@@ -205,6 +205,7 @@
 - [错误](/Inc/softexam/error.md)
 - [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
 - [霍夫曼编码](https://blog.csdn.net/sky15732625340/article/details/72084752)
+- [系统可靠度](/Inc/softexam/reliability.md)
 
 ## z7z8
 
