@@ -3,6 +3,7 @@
 ## [uni-app](https://uniapp.dcloud.io/README)
 
 - [白话uni-app](https://ask.dcloud.net.cn/article/35657)
+- [生命周期](https://uniapp.dcloud.io/frame?id=%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)
 
 ## The software designer
 
