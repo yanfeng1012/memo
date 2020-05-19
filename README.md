@@ -19,6 +19,7 @@
 - [系统可靠度](/Inc/softexam/reliability.md)
 - [加密算法](/Inc/softexam/encryption_algorithm.md)
 - [沟通路径](/Inc/softexam/communication_path.md)
+- [正规表达式](/Inc/softexam/regexp.md)
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
