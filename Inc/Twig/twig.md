@@ -109,6 +109,10 @@
 16. 获取头部信息
 
   		{{ app.request.headers.get('User-Agent') }}
+  		
+17. 获取环境变量
+
+		{{ app.environment }}
 
 ## 数组遍历
  
@@ -234,7 +238,8 @@
 	replace：替换一个字符串中的指定内容。如 {{ '%s1 love %s2'|replace({'%s1': 'Ruchee', '%s2': 'Vim'}) }} => 'Ruchee love Vim'
 	raw：让数据在 autoescape 过滤器里失效
 	
-	借用自PHP自带函数的过滤器
+##借用自PHP自带函数的过滤器
+
 	abs：取绝对值
 	nl2br：将字符串里的 \n 替换成 <br/>
 	join：将数组的各个元素按指定分隔符组成字符串
@@ -259,7 +264,6 @@
 	convert_encoding：编码转换，第一个参数指定转换后的编码，第二个参数指定转换前的编码，近似于 iconv
 
 ## 内建函数
-
 
 	even：是否为偶数
 	odd：是否为奇数
