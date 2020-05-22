@@ -25,6 +25,8 @@
 - [正规表达式](/Inc/softexam/regexp.md)
 - [存储管理](https://blog.csdn.net/u012184539/article/details/84140054)
 - [PV](/Inc/softexam/pv.md)
+- [二叉树基本概念](https://www.jianshu.com/p/bf73c8d50dc2)
+- [图解二叉树](https://www.jianshu.com/p/45d75aeb3b01)
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
