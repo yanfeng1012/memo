@@ -6,6 +6,8 @@
 - [生命周期](https://uniapp.dcloud.io/frame?id=%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)
 - [picker](https://uniapp.dcloud.io/component/picker)
 - [表单](https://uniapp.dcloud.io/component/button)
+- [安装vue-devtools](https://blog.csdn.net/chenjiepds/article/details/80034956)
+- [下拉刷新](http://www.mescroll.com/uni.html?v=20200315)
 
 ## The software designer
 
