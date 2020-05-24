@@ -20,6 +20,7 @@
 - [文法](/Inc/softexam/grammar.md)
 - [错误](/Inc/softexam/error.md)
 - [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
+- [关系代数运算 - 连接](https://blog.csdn.net/qq_36561697/article/details/80815442)
 - [霍夫曼编码](https://blog.csdn.net/sky15732625340/article/details/72084752)
 - [系统可靠度](/Inc/softexam/reliability.md)
 - [加密算法](/Inc/softexam/encryption_algorithm.md)
@@ -29,6 +30,8 @@
 - [PV](/Inc/softexam/pv.md)
 - [二叉树基本概念](https://www.jianshu.com/p/bf73c8d50dc2)
 - [图解二叉树](https://www.jianshu.com/p/45d75aeb3b01)
+- [数据锁](https://blog.csdn.net/weixin_45118179/article/details/90730066)
+- [事务](https://www.jianshu.com/p/eb41df600775)
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
