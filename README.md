@@ -11,6 +11,7 @@
 
 ## The software designer
 
+- [算法](/Inc/softexam/algorithm.md)
 - [进制转换](https://blog.csdn.net/yuanxiang01/article/details/82503568)
 - [网络与信息安全](/Inc/softexam/network.md)
 - [海明校验码](/Inc/softexam/haiming.md)
