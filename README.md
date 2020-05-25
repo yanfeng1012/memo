@@ -9,6 +9,10 @@
 - [安装vue-devtools](https://blog.csdn.net/chenjiepds/article/details/80034956)
 - [下拉刷新](http://www.mescroll.com/uni.html?v=20200315)
 
+## 真题知识点
+
+- [2019下半年上午](/Inc/softexam/points/2019_2_1.md)
+
 ## The software designer
 
 - [算法](/Inc/softexam/algorithm.md)
