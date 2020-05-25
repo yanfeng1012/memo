@@ -73,5 +73,5 @@
 		- （2）搜索方式的不同：回溯法以深度优先的方式搜索解空间树，而分支限界法则以广度优先或以最小耗费优先的方式搜索解空间树。
 
 	
-- 概率算法
-- 近似算法
+- [概率算法](https://baike.baidu.com/item/%E6%A6%82%E7%8E%87%E7%AE%97%E6%B3%95/6415410?fr=aladdin)
+- [近似算法](https://baike.baidu.com/item/%E8%BF%91%E4%BC%BC%E7%AE%97%E6%B3%95/5963315?fr=aladdin)
