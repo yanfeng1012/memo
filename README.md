@@ -17,6 +17,9 @@
 
 ## The software designer
 
+- [算法的时间复杂度和空间复杂度计算](https://blog.csdn.net/daijin888888/article/details/66970902)
+- [编译过程的五个阶段](https://blog.csdn.net/weixin_41571493/article/details/80692749)
+- [耦合类型](https://blog.csdn.net/qq_20480611/article/details/51329688)
 - [双端队列](https://blog.csdn.net/xiangxizhishi/article/details/79119501)
 - [算法](/Inc/softexam/algorithm.md)
 - [进制转换](https://blog.csdn.net/yuanxiang01/article/details/82503568)
