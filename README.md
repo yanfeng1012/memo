@@ -186,6 +186,7 @@
 
 ## Java
 - [菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
+- [继承](https://www.runoob.com/java/java-inheritance.html)
 
 ## redis 
 
