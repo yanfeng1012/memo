@@ -19,6 +19,7 @@
 
 ## The software designer
 
+- [分布式数据库的透明性](https://www.cnblogs.com/south-wood/p/12698958.html)
 - [算法的时间复杂度和空间复杂度计算](https://blog.csdn.net/daijin888888/article/details/66970902)
 - [编译过程的五个阶段](https://blog.csdn.net/weixin_41571493/article/details/80692749)
 - [耦合类型](https://blog.csdn.net/qq_20480611/article/details/51329688)
@@ -29,7 +30,7 @@
 - [海明校验码](/Inc/softexam/haiming.md)
 - [内聚](/Inc/softexam/cohesion.md)
 - [面向对象](/Inc/softexam/object-oriented.md)
-- [UML](/Inc/softexam/uml.md)
+- [设计模式](/Inc/softexam/uml.md)
 - [文法](/Inc/softexam/grammar.md)
 - [错误](/Inc/softexam/error.md)
 - [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
