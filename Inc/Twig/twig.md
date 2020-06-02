@@ -238,7 +238,7 @@
 	replace：替换一个字符串中的指定内容。如 {{ '%s1 love %s2'|replace({'%s1': 'Ruchee', '%s2': 'Vim'}) }} => 'Ruchee love Vim'
 	raw：让数据在 autoescape 过滤器里失效
 	
-##借用自PHP自带函数的过滤器
+## 使用PHP自带函数的过滤器
 
 	abs：取绝对值
 	nl2br：将字符串里的 \n 替换成 <br/>
