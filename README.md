@@ -193,6 +193,9 @@
 - [继承](https://www.runoob.com/java/java-inheritance.html)
 - [abstract](https://blog.csdn.net/weixin_40096176/article/details/79094991)
 
+## ES6
+- [菜鸟教程](https://www.runoob.com/w3cnote/es6-tutorial.html)
+
 ## redis 
 
 - [redis](/Inc/redis/redis.md)
