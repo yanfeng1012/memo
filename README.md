@@ -22,6 +22,7 @@
 
 ## The software designer
 
+- [白盒测试](/Inc/softexam/white_box.md)
 - [分布式数据库的透明性](https://www.cnblogs.com/south-wood/p/12698958.html)
 - [算法的时间复杂度和空间复杂度计算](https://blog.csdn.net/daijin888888/article/details/66970902)
 - [编译过程的五个阶段](https://blog.csdn.net/weixin_41571493/article/details/80692749)
