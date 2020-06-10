@@ -271,4 +271,4 @@
 - [github 无法访问](/Inc/others/github.md)
 - [Mac禁用向日葵自启动](https://www.jianshu.com/p/a20efbcc61dd)
 - [PhpStorm快捷键](https://blog.csdn.net/zhenshangfei/article/details/84849337)
-- [jetbrains-agent](https://www.cnblogs.com/nickchou/p/12689438.html)[github](https://github.com/nickchou/jetbrains-agent)
+- [jetbrains-agent](https://www.cnblogs.com/nickchou/p/12689438.html)
