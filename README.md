@@ -115,6 +115,7 @@
 
 ## PHP 
 
+- [PHP内置函数](https://www.php.net/manual/zh/indexes.functions.php)
 - [PHP 相关](/Inc/php/php.md)
 - [安装PHP7.3.6](./php/install7.3.6.md)
 - [php errors](/Inc/php/errors.md)
