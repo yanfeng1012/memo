@@ -45,4 +45,4 @@
 
   		ERROR 1292 (22007): Incorrect datetime value: '0000-00-00 00:00:00'
   		
-- `NO_AUTO_CREATE_USER` mysql8 已删除
+- ~~`NO_AUTO_CREATE_USER`~~ mysql8 已删除
