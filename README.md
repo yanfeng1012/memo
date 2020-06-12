@@ -88,6 +88,7 @@
 
 ## mysql 
 
+- [mysql8 重置密码](https://www.cnblogs.com/mg007/p/12641808.html)
 - [atlas 数据库中间件](/Inc/others/atlas.md)
 - [mysql 语法汇总](/Inc/MySql/mysql.md)
 - [grant 授权](/Inc/MySql/grant.md)
