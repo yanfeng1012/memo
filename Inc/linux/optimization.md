@@ -71,7 +71,7 @@
 		
 - 查看所有的CPU内容 学会使用 **man proc**
 
-- **top**
+- [**top**](https://www.cnblogs.com/niuben/p/12017242.html)
 
 	- 按下数字 **1** 切换到每个CPU的使用率
 
@@ -79,7 +79,7 @@
 
 >能够实时显示占用 CPU 时钟最多的函数或者指令
 
-- 压力测试 **ab**
+- 压力测试 [**ab**](https://www.cnblogs.com/myvic/p/7703973.html)
 
 		# 并发10个请求测试Nginx性能，总共测试100个请求
 		$ ab -c 10 -n 100 http://192.168.124.28:8080
