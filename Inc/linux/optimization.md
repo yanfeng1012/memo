@@ -89,3 +89,11 @@
 		Requests per second:    11.63 [#/sec] (mean)
 		Time per request:       859.942 [ms] (mean)
 		...
+		
+- pstree 树形显示进程
+
+- [execsnoop](https://github.com/brendangregg/perf-tools) 短时进程追踪工具
+
+- [dstat](https://ipcmen.com/dstat)通用的系统资源统计工具
+
+- [strace](https://www.jianshu.com/p/33521124bdf2)
