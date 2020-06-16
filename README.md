@@ -19,6 +19,7 @@
 - [2018上半年上午](/Inc/softexam/points/2018_1_1.md)
 - [2017下半年上午](/Inc/softexam/points/2017_2_1.md)
 - [2017上半年上午](/Inc/softexam/points/2017_1_1.md)
+- [2016下半年上午](/Inc/softexam/points/2016_2_1.md)
 
 ## The software designer
 
