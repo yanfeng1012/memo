@@ -11,6 +11,7 @@
 
 ## 真题知识点
 
+- [错题](/Inc/softexam/wrong_questions.md)
 - [2019下半年上午](/Inc/softexam/points/2019_2_1.md)
 - [2019下半年下午](/Inc/softexam/points/2019_2_2.md)
 - [2019上半年上午](/Inc/softexam/points/2019_1_1.md)
