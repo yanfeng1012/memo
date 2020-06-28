@@ -36,7 +36,7 @@
 - [海明校验码](/Inc/softexam/haiming.md)
 - [内聚](/Inc/softexam/cohesion.md)
 - [面向对象](/Inc/softexam/object-oriented.md)
-- [设计模式](/Inc/softexam/uml.md)
+- [设计模式](/Inc/softexam/design_pattern.md)
 - [文法](/Inc/softexam/grammar.md)
 - [错误](/Inc/softexam/error.md)
 - [关系代数运算](https://blog.csdn.net/zhangsify/article/details/48977959)
