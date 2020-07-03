@@ -46,6 +46,7 @@
 - [霍夫曼编码](https://blog.csdn.net/sky15732625340/article/details/72084752)
 - [系统可靠度](/Inc/softexam/reliability.md)
 - [图解二叉树](https://www.jianshu.com/p/45d75aeb3b01)
+- [UML用例关系](https://blog.csdn.net/qq_36071547/article/details/88317546)
 - [网络与信息安全](/Inc/softexam/network.md)
 - [二叉树基本概念](https://www.jianshu.com/p/bf73c8d50dc2)
 - [关系代数运算(一)](https://blog.csdn.net/zhangsify/article/details/48977959)
