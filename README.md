@@ -51,6 +51,7 @@
 - [二叉树基本概念](https://www.jianshu.com/p/bf73c8d50dc2)
 - [关系代数运算(一)](https://blog.csdn.net/zhangsify/article/details/48977959)
 - [关系代数运算连接](https://blog.csdn.net/qq_36561697/article/details/80815442)
+- [原码、补码、反码](https://blog.csdn.net/chaochaoaiyuer/article/details/82868761)
 - [编译过程的五个阶段](https://blog.csdn.net/weixin_41571493/article/details/80692749)
 - [分布式数据库的透明性](https://www.cnblogs.com/south-wood/p/12698958.html)
 - [算法的时间复杂度和空间复杂度计算](https://blog.csdn.net/daijin888888/article/details/66970902)
