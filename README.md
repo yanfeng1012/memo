@@ -264,6 +264,9 @@
 
 - [文件上传配置](/Inc/others/ue_upload_config.md)
 
+## ORACLE
+- [导入dmp](https://jingyan.baidu.com/article/359911f59422bb57ff030659.html)
+
 ## z7z8
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
