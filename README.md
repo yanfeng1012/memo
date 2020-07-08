@@ -136,6 +136,7 @@
 - [php 数组排序](https://www.runoob.com/php/php-arrays-sort.html)
 - [隐藏PHP版本](https://www.jb51.net/article/67351.htm)
 - [php安装sqlsrv扩展](/Inc/symfony/sqlsrv.md)
+- [oci8 oracle连接扩展](/Inc/php/oci8.md)
 	 
 ## symfony 
 
