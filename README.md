@@ -26,6 +26,7 @@
 
 ## The software designer
 
+- [机器数编码](/Inc/softexam/machine_code.md)
 - [PV](/Inc/softexam/pv.md)
 - [算法](/Inc/softexam/algorithm.md)
 - [文法](/Inc/softexam/grammar.md)
