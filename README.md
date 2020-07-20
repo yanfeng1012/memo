@@ -60,6 +60,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [ntp时间同步](/Inc/linux/ntp.md)
  - [性能优化](/Inc/linux/optimization.md)
  - [常用命令总结](/Inc/linux/command.md)
  - [进阶](/Inc/linux/senior_command.md)
