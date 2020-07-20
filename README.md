@@ -60,6 +60,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [禁止用户登录](/Inc/linux/nologin.md)
  - [ntp时间同步](/Inc/linux/ntp.md)
  - [性能优化](/Inc/linux/optimization.md)
  - [常用命令总结](/Inc/linux/command.md)
