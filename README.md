@@ -272,6 +272,9 @@
 ## ORACLE
 - [导入dmp](https://jingyan.baidu.com/article/359911f59422bb57ff030659.html)
 
+## SQLSERVER
+- [完整数据库备份](https://docs.microsoft.com/zh-cn/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver15)
+
 ## z7z8
 
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
