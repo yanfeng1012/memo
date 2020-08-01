@@ -41,14 +41,17 @@
 		nginx:configuration file /usr/local/nginx/conf/nginx.conf test issuccessful
 		
 - 修改 nginx 配置文件
-
-		server
+               
+		http
 		     {
 		       ...
-			 set_real_ip_from  192.168.124.28;
-			 set_real_ip_from  127.0.0.1; // 上游代理ip 可多个
-			 real_ip_header    X-Forwarded-For;
-			 real_ip_recursive on;
+			real_ip_header X-Frowarded-For;
+			set_real_ip_from 192.168.124.28;
+			real_ip_recursive on;
+
+			log_format access '$remote_addr - $remote_user [$time_local] "$request" '
+					  '$status $body_bytes_sent "$http_referer" '
+					  '"$http_user_agent" "$http_x_forwarded_for"';
 		       ...
 		     }
 		
