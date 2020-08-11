@@ -12,10 +12,10 @@
 		
 - 设置稳定的存储库
 
-   		yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-   		
-	   	如果上述链接下载不了，则可使用如下链接
-	   	yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+		yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+		
+		如果上述链接下载不了，则可使用如下链接
+		yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 	   
 - 查看仓库中的docker版本
 
