@@ -1,5 +1,9 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
+## GIS
+- [freexserver](/Inc/gis/freexserver.md)
+- [文件格式说明](/Inc/gis/fileFormat.md)
+
 ## [uni-app](https://uniapp.dcloud.io/README)
 
 - [表单](https://uniapp.dcloud.io/component/button)
