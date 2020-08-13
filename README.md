@@ -65,6 +65,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [磁盘iostat](https://www.cnblogs.com/ftl1012/p/iostat.html)
  - [禁止用户登录](/Inc/linux/nologin.md)
  - [ntp时间同步](/Inc/linux/ntp.md)
  - [性能优化](/Inc/linux/optimization.md)
