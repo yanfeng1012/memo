@@ -81,17 +81,16 @@
 		注意：此时使用"docker ps -a"会发现容器已经退出。这是docker的机制：要使Docker容器后台运行，就必须有一个前台进程。解决方案：将你要运行的程序以前台进程的形式运行。
 
 		##启动一个或多个已经被停止的容器
-		docker start redis
+		docker start [容器id|容器名]
 		##重启容器
-		docker restart redis
+		docker restart [容器id|容器名]
 		
 - 容器进程
 		
 		##top支持 ps 命令参数，格式：docker top [OPTIONS] CONTAINER [ps OPTIONS]
+		
 		##列出redis容器中运行进程
-		docker top redis
-		##查看所有运行容器的进程信息
-		for i in  `docker ps |grep Up|awk '{print $1}'`;do echo \ &&docker top $i; done
+		docker top [容器id|容器名]
 		
 - 容器日志
 		
@@ -105,7 +104,7 @@
 - 容器的进入与退出
 		
 		##使用run方式在创建时进入
-		docker run -it centos /bin/bash
+		docker run -it [容器id|容器名] /bin/bash
 		##关闭容器并退出
 		exit
 		##仅退出容器，不关闭
@@ -113,16 +112,16 @@
 		##直接进入centos 容器启动命令的终端，不会启动新进程，多个attach连接共享容器屏幕，参数：--sig-proxy=false  确保CTRL-D或CTRL-C不会关闭容器
 		docker attach --sig-proxy=false centos 
 		##在 centos 容器中打开新的交互模式终端，可以启动新进程，参数：-i  即使没有附加也保持STDIN 打开；-t  分配一个伪终端
-		docker exec -i -t  centos /bin/bash
+		docker exec -i -t  [容器id|容器名] /bin/bash
 		##以交互模式在容器中执行命令，结果返回到当前终端屏幕
-		docker exec -i -t centos ls -l /tmp
+		docker exec -i -t [容器id|容器名] ls -l /tmp
 		##以分离模式在容器中执行命令，程序后台运行，结果不会反馈到当前终端
-		docker exec -d centos touch cache.txt 
+		docker exec -d [容器id|容器名] touch cache.txt 
 		
 - 查看容器
 		
 		##查看正在运行的容器
-		docker ps
+		docker ps 
 		##查看正在运行的容器的ID
 		docker ps -q
 		##查看正在运行+历史运行过的容器
@@ -145,20 +144,20 @@
 - 容器的停止与删除
 		
 		##停止一个运行中的容器
-		docker stop redis
+		docker stop [容器id|容器名]
 		##杀掉一个运行中的容器
-		docker kill redis
+		docker kill [容器id|容器名]
 		##删除一个已停止的容器
-		docker rm redis
+		docker rm [容器id|容器名]
 		##删除一个运行中的容器
-		docker rm -f redis
+		docker rm -f [容器id|容器名]
 		##删除多个容器
 		docker rm -f $(docker ps -a -q)
 		docker ps -a -q | xargs docker rm
 		## -l 移除容器间的网络连接，连接名为 db
 		docker rm -l db 
 		## -v 删除容器，并删除容器挂载的数据卷
-		docker rm -v redis
+		docker rm -v [容器id|容器名]
 		
 - 生成镜像
 		
@@ -168,8 +167,8 @@
 - 容器与主机间的数据拷贝
 
 		##将rabbitmq容器中的文件copy至本地路径
-		docker cp rabbitmq:/[container_path] [local_path]
+		docker cp [容器id|容器名]:/[container_path] [local_path]
 		##将主机文件copy至rabbitmq容器
-		docker cp [local_path] rabbitmq:/[container_path]/
+		docker cp [local_path] [容器id|容器名]:/[container_path]/
 		##将主机文件copy至rabbitmq容器，目录重命名为[container_path]（注意与非重命名copy的区别）
-		docker cp [local_path] rabbitmq:/[container_path]
+		docker cp [local_path] [容器id|容器名]:/[container_path]
