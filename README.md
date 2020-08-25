@@ -3,6 +3,7 @@
 ## GIS
 - [freexserver](/Inc/gis/freexserver.md)
 - [文件格式说明](/Inc/gis/fileFormat.md)
+- [geoserver](/Inc/gis/geoserver.md)
 
 ## [uni-app](https://uniapp.dcloud.io/README)
 
