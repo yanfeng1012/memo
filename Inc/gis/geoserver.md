@@ -52,3 +52,10 @@
 3. 引入生效
 
 		source /etc/profile
+		
+#### 配置imagePyramid
+
+- 下载安装
+
+		在Geoserver官网上下载对应版本的ImagePyramid。
+		解压后将jar包放到webapps\geoserver\WEB-INF\lib中
