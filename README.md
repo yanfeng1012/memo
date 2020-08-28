@@ -4,6 +4,7 @@
 - [freexserver](/Inc/gis/freexserver.md)
 - [文件格式说明](/Inc/gis/fileFormat.md)
 - [geoserver](/Inc/gis/geoserver.md)
+- [geoserver教程](/Inc/gis/geoserver_course.md)
 - [ImagePyramid 影像金字塔](/Inc/gis/ImagePyramid.md)
 
 ## C++
