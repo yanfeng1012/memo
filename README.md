@@ -12,6 +12,10 @@
 - [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
 - [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
 
+## QT
+- [快速入门教程](http://shouce.jb51.net/qt-beginning)
+- [qt openGL 教程](https://qiliang.net/old/nehe_qt/)
+
 ## [uni-app](https://uniapp.dcloud.io/README)
 
 - [表单](https://uniapp.dcloud.io/component/button)
