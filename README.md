@@ -6,6 +6,8 @@
 - [geoserver](/Inc/gis/geoserver.md)
 - [geoserver教程](/Inc/gis/geoserver_course.md)
 - [ImagePyramid 影像金字塔](/Inc/gis/ImagePyramid.md)
+- [osg](/Inc/gis/osg.md)
+- [osgEarth](/Inc/gis/osgEarth.md)
 
 ## C++
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
