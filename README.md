@@ -1,14 +1,5 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
-## GIS
-- [freexserver](/Inc/gis/freexserver.md)
-- [文件格式说明](/Inc/gis/fileFormat.md)
-- [geoserver](/Inc/gis/geoserver.md)
-- [geoserver教程](/Inc/gis/geoserver_course.md)
-- [ImagePyramid 影像金字塔](/Inc/gis/ImagePyramid.md)
-- [osg](/Inc/gis/osg.md)
-- [osgEarth](/Inc/gis/osgEarth.md)
-
 ## C++
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
 - [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
