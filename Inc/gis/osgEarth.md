@@ -1,45 +1,16 @@
-## ImagePyramid 影像金字塔
+## osgEarth	
 
-### 用 FWTools 建立影像金字塔
+- 简介
+	- osg的一个Node；	- 具有GIS功能；	- 数据的动态调动
 
-- 下载并安装FWTools
+- osgEarth功能
 
-		// 迅雷下载 网页下载已无法正常下载
-		http://home.gdal.org/fwtools/FWTools247.exe
-		
-- 修复2.4.7版本bug
+	- 实时生成地形（影像、高程等数据）；	- 矢量渲染；	- 数字城市；	- 地形调度；	- 实用工具；	- 支持多种地形数据。
 
-		安装完成后需要修改 bin 目录下的gdal_retile.py(Windows 版)，用编辑器打开bin/gdal_retile.py，把第273行修改成：
-		
-		print("Building internal Index for %d tile(s) ..." % len(inputTiles))
-		
-		去掉 print 方法的最后一个参数 end=' '，否则在 cmd 中执行命令会报错。
-		
-- 开启建立
+- 核心库（6种）
 
-		D:\FWTools2.4.7>D:\FWTools2.4.7\python\python.exe D:\FWTools2.4.7\bin\gdal_retile.py -v -r bilinear -levels 18 -ps 512 512 -co "TILED=YES" -co "COMPRESS=JPEG"   -targetDir F:\tiftest  F:\TiffData\result.tif
-		
-	- 参数说明
+	- osgEarth库：地球构建的核心库，包含了各种图层方法；	- osgEarthAnnotation库：标记库，包含了标签、椭圆、矩形等标记；	- osgEarthFeatures库：矢量处理库，包含了矢量的加载、编辑等矢量操作；	- osgEarthQt库：界面库，用于与Qt界面的结合；	- osgEarthSymbology库：特征库，主要用于设置添加到地球表面上的元素的风格设置等；	- osgEarthUtil库：工具库，包含了地球的操作器、天空等附加工具。
 
-			levels 4  表示分成四级；
+- [earth文件](./earth_learn.md)
 
-			ps 512 512  表示切片大小为512*512；
-
-			COMPRESS=JPEG  表示按照jpeg方式压缩；
-
-			targetDir F:\ tiftest   表示目标文件夹，即存放切片影像的文件夹；
-
-			D:\TiffData\result.tif   表示待处理影像文件。
-			
-### geoserver 发布
-
-- 下载 image pyramid [下载地址](http://geoserver.org/download/)
-
-- 解压后将jar包放到`webapps\geoserver\WEB-INF\lib`中
-
-- 选择image pyramid 发布
-
-![image pyramid](/images/choice.png)
-
-- 发布图层时，参数USE_JAI_IMAGEREAD设置为false
-	
+	
