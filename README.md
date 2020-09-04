@@ -8,6 +8,7 @@
 ## QT
 - [快速入门教程](http://shouce.jb51.net/qt-beginning)
 - [qt openGL 教程](https://qiliang.net/old/nehe_qt/)
+- [槽](https://www.ibm.com/developerworks/cn/linux/guitoolkit/qt/signal-slot/index.html)
 
 ## [uni-app](https://uniapp.dcloud.io/README)
 
