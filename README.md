@@ -4,11 +4,13 @@
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
 - [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
 - [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
+- [cmake](https://www.jianshu.com/p/528eeb266f83)
 
 ## QT
 - [快速入门教程](http://shouce.jb51.net/qt-beginning)
 - [qt openGL 教程](https://qiliang.net/old/nehe_qt/)
 - [槽](https://www.ibm.com/developerworks/cn/linux/guitoolkit/qt/signal-slot/index.html)
+- [QT教程](http://c.biancheng.net/qt/)
 
 ## [uni-app](https://uniapp.dcloud.io/README)
 
