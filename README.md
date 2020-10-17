@@ -6,6 +6,7 @@
 - [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
 - [cmake](https://www.jianshu.com/p/528eeb266f83)
 - [C++11 之 override](https://www.cnblogs.com/xinxue/p/5471708.html)
+- [CMake语法](https://www.jianshu.com/p/528eeb266f83)
 
 ## QT
 - [快速入门教程](http://shouce.jb51.net/qt-beginning)
