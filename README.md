@@ -41,6 +41,7 @@
 
 ## The software designer
 
+- [UML九种图](https://zhuanlan.zhihu.com/p/44518805)
 - [机器数编码](/Inc/softexam/machine_code.md)
 - [PV](/Inc/softexam/pv.md)
 - [算法](/Inc/softexam/algorithm.md)
