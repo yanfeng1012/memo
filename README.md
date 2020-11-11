@@ -316,3 +316,5 @@
 - [pm2](https://www.jianshu.com/p/e15fd72727fe)
 - [php nginx 限制上传文件大小](https://www.cnblogs.com/tianfen/p/8277175.html)
 - [内网穿透gofrp](https://gofrp.org/docs/)
+- [Windows设置Apache自启](https://www.cnblogs.com/imper/p/12031202.html)
+- [Windows设置Mysql自启](https://blog.csdn.net/qq_39234410/article/details/83505245)
