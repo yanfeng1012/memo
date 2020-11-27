@@ -216,6 +216,7 @@
 - [ES 时间范围查询](https://blog.csdn.net/weixin_30608131/article/details/98046992)
 - [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch)
 - [es-php](https://www.elastic.co/guide/cn/elasticsearch/php/current/index.html)
+- [模糊查询 "wildcard"](https://blog.csdn.net/u013244192/article/details/82895467)
 
 ## HAProxy
 
