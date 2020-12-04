@@ -1,5 +1,9 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
+## 银河麒麟
+- [PHP](/Inc/kylin/kylin.md)
+- [人大金仓](/Inc/kylin/kingbase.md)
+
 ## C++
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
 - [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
@@ -93,7 +97,6 @@
 
 ## PHP 
 
-- [银河麒麟安装PHP](/Inc/php/kylin.md)
 - [PHP内置函数](https://www.php.net/manual/zh/indexes.functions.php)
 - [PHP 相关](/Inc/php/php.md)
 - [安装PHP7.3.6](./php/php/install7.3.6.md)

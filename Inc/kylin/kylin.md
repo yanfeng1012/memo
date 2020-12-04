@@ -23,3 +23,8 @@
 - libxml build works no
 
 		sudo apt-get install liblzma-dev libzip-dev
+		
+- curl 7.*.* or greater...
+
+		sudo apt-get install libcurl4-gnutls-dev
+		
