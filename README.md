@@ -93,9 +93,10 @@
 
 ## PHP 
 
+- [银河麒麟安装PHP](/Inc/php/kylin.md)
 - [PHP内置函数](https://www.php.net/manual/zh/indexes.functions.php)
 - [PHP 相关](/Inc/php/php.md)
-- [安装PHP7.3.6](./php/install7.3.6.md)
+- [安装PHP7.3.6](./php/php/install7.3.6.md)
 - [php errors](/Inc/php/errors.md)
 - [PHP 协议详解](https://www.easyswoole.com/Cn/NoobCourse/introduction.html)
 - [PHP Excel](https://github.com/PHPOffice/PhpSpreadsheet)
