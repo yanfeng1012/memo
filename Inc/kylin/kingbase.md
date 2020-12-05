@@ -2,15 +2,15 @@
 
 - 编辑php.ini文件，分别找到:
 
-		1、extension_ dir= “./”
+		1、extension_dir= “./”
 		修改为:
-		extension_ dir = "/opt/php/kingbase/lib"
+		extension_dir = "/usr/local/php/lib/kingbase"
 		2、加入:
-		extension=/opt/php/kingbase/lib/pdo_kdb.so
+		extension=/usr/local/php/lib/kingbase/pdo_kdb.so
 		
 - 设置环境变量
 
-		export LD_ LIBRARY_ PATH=/opt/php/kingbase/lib
+		export LD_LIBRARY_PATH=/usr/local/php/lib/kingbase
 
 - 测试扩展加载
 
