@@ -1,17 +1,21 @@
 ## 加入金仓PDO扩展
 
-- 编辑php.ini文件，分别找到:
+- 编辑php.ini:
 
-		1、extension_dir= “./”
-		修改为:
-		extension_dir = "/usr/local/php/lib/kingbase"
-		2、加入:
-		extension=/usr/local/php/lib/kingbase/pdo_kdb.so
+		添加:
+		extension=/usr/local/php/lib/kingbase/pdo_kdb.so(文件位置)
 		
 - 设置环境变量
 
-		export LD_LIBRARY_PATH=/usr/local/php/lib/kingbase
+		export LD_LIBRARY_PATH=/usr/local/php/lib/kingbase(文件所在文件夹)
 
 - 测试扩展加载
 
 		php -m | grep pdo_kdb
+		
+- 启动php-fpm时找不到拓展文件
+
+		1、将人大金仓的拓展放入/etc/ld.so.conf
+		/opt/kingbaseES/V8/Server/lib(数据库安装位置)
+		
+		2、执行/sbin/ldconfig 更新生效
