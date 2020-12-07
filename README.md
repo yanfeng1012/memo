@@ -1,7 +1,8 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
 ## 银河麒麟
-- [PHP](/Inc/kylin/kylin.md)
+- [kylin](/Inc/kylin/kylin.md)
+- [PHP](/Inc/kylin/php.md)
 - [人大金仓](/Inc/kylin/kingbase.md)
 
 ## C++

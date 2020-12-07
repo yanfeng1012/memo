@@ -19,3 +19,7 @@
 		/opt/kingbaseES/V8/Server/lib(数据库安装位置)
 		
 		2、执行/sbin/ldconfig 更新生效
+	
+- 初始化数据库
+
+	initdb -D /opt/kingbaseES/V8/data --case-insensitive -USYSTEM -W123456
