@@ -24,7 +24,7 @@
 
 - 生成 Makefile 文件
 
->./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --with-config-file-scan-dir=/usr/local/php/conf.d --enable-fpm --with-fpm-user=www --with-fpm-group=www --enable-mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --with-iconv-dir --with-freetype-dir=/usr/local/freetype --with-jpeg-dir --with-png-dir --with-zlib --with-libxml-dir=/usr --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-mbregex --enable-mbstring --enable-intl --enable-pcntl --enable-ftp --with-mhash --enable-pcntl --enable-sockets --with-xmlrpc --enable-zip --without-libzip 
+>./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --with-config-file-scan-dir=/usr/local/php/conf.d --enable-fpm --with-fpm-user=www --with-fpm-group=www --enable-mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --with-iconv-dir --with-opensll --with-curl --with-gd --with-freetype-dir=/usr/local/freetype --with-jpeg-dir --with-png-dir --with-zlib --with-libxml-dir=/usr --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-mbregex --enable-mbstring --enable-intl --enable-pcntl --enable-ftp --with-mhash --enable-pcntl --enable-sockets --with-xmlrpc --enable-zip --without-libzip 
 
 
 #### 依赖错误
