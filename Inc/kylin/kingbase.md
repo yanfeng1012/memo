@@ -23,3 +23,7 @@
 - 初始化数据库
 
 	initdb -D /opt/kingbaseES/V8/data --case-insensitive -USYSTEM -W123456
+
+- `ind_in_set` 替换为 `find-string = ANY (string_to_array(some_column,','))` 
+
+- `date-format` 替换为 `to_char`
