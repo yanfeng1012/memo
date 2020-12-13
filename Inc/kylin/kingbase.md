@@ -61,7 +61,12 @@
 		- 还原`sys_dumpall` 
 
 				ksql -f infile kingbase (用kingbase 代替数据库名称) 
+				
+		- [一键备份命令脚本](/Inc/kingbase/kb_scripts/kb_backup/logical/fast_deploy_backup8.sh)
 - 物理备份
+
+	- `sys_rman`
+	-  [一键备份命令脚本](/Inc/kingbase/kb_scripts/kb_backup/rman/fast_deploy_rman.sh)
 
 - SYSTEM密码忘记(`sys_hba.conf`)
 

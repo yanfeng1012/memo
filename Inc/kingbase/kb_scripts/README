@@ -1,0 +1,65 @@
+# usage:
+1.those tool should run as root user
+2.if sh execute have error, try to use bash execute those sh file, like: bash fast_deploy_backup8.sh
+
+
+# release note:
+
+3.2.2:
+1)修复问题收集列表中的问题，包括补充信号量说明，添加共享内存段的枚举，去掉重复配置项、修改获取IP的方式、添加获取Mac地址。
+2)修改集群巡检工具，集群日志现在不在/tmp下了，对应做了调整。
+3)和邢豪军沟通，将一键工具放到安装包中，在安装目录下建一个MaintenanceTools目录，专门存放一键工具等，已发邮件讨论。
+
+3.2.3
+1)在optimize_system_conf.sh中添加：
+echo kingbase|passwd --stdin kingbase
+
+3.2.4
+1)将读取配置文件的方式从source ./xxx.conf的方式，改为绝对路径。--修复自动备份中找不到配置文件的问题。
+2)将自动备份的备份执行日志，输出到脚本的目录下，添加了执行日志，开始时间、结束时间，方便查看自动备份是否生效。
+
+4.1.1
+1)添加集群备份工具: kb_backup/r3_cluster_backup，该工具实现了在集群的主备上同时创建物理备份。
+2)一键工具将统一打包到产品中，目录：
+单机：$kb_home/Server/MaintenanceTools
+集群：$cluster_home/db/MaintenanceTools
+
+4.1.2
+1)更新了一键备份工具：在crontab中执行备份的命令由将sh改为bash
+2)把共享内存的设置注释掉，使用默认的，如果想调优，再打开注释。否则造成fork错误（重启就解决了）
+3)获取ksql位置有Server/bin/kingbase，集群使用的话就会报错，去掉前面的Server
+4)获取IP的时候，Mask找不到，麒麟v10的是netmask. 改为:grep -i Mask
+5)调整最大连接数，设置为2000，如果没有执行操作系统参数优化，可能启动数据库提示信号量不够
+
+
+5.1.0
+将读取配置文件的方式，从source 的方式改为cat去获取。已解决在专用机上soruce报错，权限不足的问题。
+
+
+6.1.0 
+大版本跨越：部分脚本兼容R6，通过在配置文件中使用db_verson来控制:
+1)修改kb_poling/single中逻辑：
+a.判断根目录下有没有.kbpass文件，如果没有，则根据配置文件去生成。
+b.ksql连接时，不指定-W参数。
+c.修改获取top10表的SQL，添加sys等系统表空间。
+d.在conf文件中，添加参数db_version，默认值为R3，如果是R6集群，则需要配置为R6，详细参考配置文件中的说明
+
+2)修改kb_polling/cluster中逻辑：
+a.添加R6控制分支。
+b.添加R6的repmgr相关视图信息。
+
+3)修改kb_collect/cluster相关逻辑：
+a.添加R6控制分支。
+b.针对R6，改变cluster的日志文件名称指定
+
+4)其他说明：
+a.kb_backup中物理备份，可以直接使用R6的备份脚本，其功能接近R3的一键物理备份工具，因此备份检查脚本也使用R6自带的。
+b.kb_install, kb_backup/logical, kb_update R3和R6不需要改变。
+
+date:  2020-11-30 the last day in jc
+auter: HM
+
+6.1.1 
+在optimize_database.sh中将bin_path和data_dir写入到.bash_profile中
+
+#TODO: 本脚本在bmj上执行有些会失败，但失败了会继续执行，能使用多少就使用多少。常用的逻辑备份没有问题。
