@@ -2,6 +2,8 @@
 
 ### kingbase 安装及常见问题
 
+- [DQL、DML、DDL、DCL](https://blog.csdn.net/qq_39626154/article/details/83584697)
+
 - 设置环境变量
 
 		export KINGBASE_DATA=/opt/kingbase/ES/V8/data

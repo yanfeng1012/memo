@@ -3,7 +3,9 @@
 ## 银河麒麟
 - [kylin](/Inc/kylin/kylin.md)
 - [PHP](/Inc/kylin/php.md)
-- [人大金仓](/Inc/kylin/kingbase.md)
+
+## 人大金仓
+- [kingbase](/Inc/kylin/kingbase.md)
 
 ## C++
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
