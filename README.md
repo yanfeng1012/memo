@@ -24,8 +24,9 @@
 - [槽](https://www.ibm.com/developerworks/cn/linux/guitoolkit/qt/signal-slot/index.html)
 - [QT教程](http://c.biancheng.net/qt/)
 
-## [uni-app](https://uniapp.dcloud.io/README)
+## uni-app
 
+- [官方文档](https://uniapp.dcloud.io/README)
 - [表单](https://uniapp.dcloud.io/component/button)
 - [picker](https://uniapp.dcloud.io/component/picker)
 - [生命周期](https://uniapp.dcloud.io/frame?id=%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)
