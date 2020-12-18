@@ -36,6 +36,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [linux服务器信任（无需密码）](https://www.cnblogs.com/feiyun126/p/5117655.html)
  - [磁盘iostat](https://www.cnblogs.com/ftl1012/p/iostat.html)
  - [禁止用户登录](/Inc/linux/nologin.md)
  - [ntp时间同步](/Inc/linux/ntp.md)
