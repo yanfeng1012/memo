@@ -6,13 +6,13 @@
 
 - 设置环境变量
 
-		export KINGBASE_DATA=/opt/kingbase/ES/V8/data
-		export LD_LIBRARY_PATH=$PATH:/opt/kingbase/ES/V8/Server/lib
-		export PATH=$PATH:/opt/kingbase/ES/V8/Server/bin
+		export KINGBASE_DATA=/opt/Kingbase/ES/V8/data
+		export LD_LIBRARY_PATH=$PATH:/opt/Kingbase/ES/V8/Server/lib
+		export PATH=$PATH:/opt/Kingbase/ES/V8/Server/bin
 
 - 初始化数据库(安装失败时，重新安装时使用)
 
-		initdb -D /opt/kingbaseES/V8/data --case-insensitive -USYSTEM -W123456
+		initdb -D /opt/KingbaseES/V8/data --case-insensitive -USYSTEM -W123456
 		
 - `ind_in_set` 替换为 `find-string = ANY (string_to_array(some_column,','))` 
 
@@ -38,7 +38,6 @@
 				eg:
 				sys_dump -h 192.168.1.8 -p 54321 -U SYSTEM -W MANAGER -f /home/KingbaseES/V8R3/bin/dumpfile.sql TEST
 				sys_dump -h 192.168.1.8 -p 54321 -U SYSTEM -W MANAGER TEST > /home/KingbaseES/V8R3/bin/dumpfile.sql 
-		
 		- `sys_dumpall`
 
 				使用sys_dumpall对全部数据库进行备份:
