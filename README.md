@@ -1,16 +1,24 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
+## openlayers
+
+- [点聚合](https://blog.csdn.net/qq_36120342/article/details/108752068)
+
 ## PostgreSQL
+
 - [PostgreSQL 10.1 手册](https://www.runoob.com/manual/PostgreSQL/index.html)
 
 ## 银河麒麟
+
 - [kylin](/Inc/kylin/kylin.md)
 - [PHP](/Inc/kylin/php.md)
 
 ## 人大金仓
+
 - [kingbase](/Inc/kylin/kingbase.md)
 
 ## C++
+
 - [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
 - [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
 - [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
@@ -19,6 +27,7 @@
 - [CMake语法](https://www.jianshu.com/p/528eeb266f83)
 
 ## QT
+
 - [快速入门教程](http://shouce.jb51.net/qt-beginning)
 - [qt openGL 教程](https://qiliang.net/old/nehe_qt/)
 - [槽](https://www.ibm.com/developerworks/cn/linux/guitoolkit/qt/signal-slot/index.html)
@@ -36,6 +45,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [centos 升级 gcc](https://blog.csdn.net/csdn18740599042/article/details/108951385)
  - [linux服务器信任（无需密码）](https://www.cnblogs.com/feiyun126/p/5117655.html)
  - [磁盘iostat](https://www.cnblogs.com/ftl1012/p/iostat.html)
  - [禁止用户登录](/Inc/linux/nologin.md)
