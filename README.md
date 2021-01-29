@@ -85,12 +85,13 @@
 
 ## mysql 
 
+- [mysql 索引](https://www.runoob.com/mysql/mysql-index.html)
 - [mysql 触发器](https://www.cnblogs.com/phpper/p/7587031.html)
 - [mysql8 重置密码](https://www.cnblogs.com/mg007/p/12641808.html)
 - [atlas 数据库中间件](/Inc/others/atlas.md)
 - [mysql 语法汇总](/Inc/MySql/mysql.md)
 - [grant 授权](/Inc/MySql/grant.md)
-- [创建用户（user）](/Inc/MySql/user.md)
+- [创建用户](/Inc/MySql/user.md)
 - [confguire](/Inc/MySql/confguire.md)
 - [sql_mode](/Inc/MySql/sql_mode.md)
 - [update root password](/Inc/MySql/update_root_password.md)
