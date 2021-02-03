@@ -77,6 +77,7 @@
 
 ## nginx 
 
+- [nginx 500 error](https://www.365jz.com/article/23868)
 - [nginx vhost conf](/Inc/nginx/vhost.md)
 - [lnmp一键安装](/Inc/nginx/lnmp一键安装步骤.md)
 - [nginx 413](/Inc/nginx/413.md)
