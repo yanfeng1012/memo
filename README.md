@@ -45,6 +45,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [rm 输入/输出错误](https://blog.csdn.net/qq_40801599/article/details/84590070)
  - [centos 升级 gcc](https://blog.csdn.net/csdn18740599042/article/details/108951385)
  - [linux服务器信任（无需密码）](https://www.cnblogs.com/feiyun126/p/5117655.html)
  - [磁盘iostat](https://www.cnblogs.com/ftl1012/p/iostat.html)
