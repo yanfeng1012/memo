@@ -6,4 +6,4 @@
 - [Download 下载](https://www.elastic.co/cn/downloads/elasticsearch)
 - ES清空所有数据
 
-		curl -XDELETE http://192.168.124.25:19200/_all?pretty
+		curl -XDELETE http://127.0.0.1:9200/_all?pretty
