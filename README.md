@@ -88,6 +88,7 @@
 
 ## mysql 
 
+- [mysql 数据量查询](https://blog.csdn.net/luo15242208310/article/details/87969884)
 - [mysql 索引](https://www.runoob.com/mysql/mysql-index.html)
 - [mysql 触发器](https://www.cnblogs.com/phpper/p/7587031.html)
 - [mysql8 重置密码](https://www.cnblogs.com/mg007/p/12641808.html)
