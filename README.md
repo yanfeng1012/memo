@@ -78,6 +78,7 @@
 
 ## nginx 
 
+- [nginx gzip](https://www.cnblogs.com/Renyi-Fan/p/11047490.htmlq)
 - [nginx 500 error](https://www.365jz.com/article/23868)
 - [nginx vhost conf](/Inc/nginx/vhost.md)
 - [lnmp一键安装](/Inc/nginx/lnmp一键安装步骤.md)
