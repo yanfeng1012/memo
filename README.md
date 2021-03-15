@@ -273,6 +273,7 @@
 
 ## z7z8
 
+- [Mac 所有程序无法打开](https://blog.csdn.net/sdfsdfasfddsafwesd/article/details/109157900)
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
 - [8p](/Inc/8p/8p.md)
 - [guzzlehttp](/Inc/others/guzzlehttp.md)
