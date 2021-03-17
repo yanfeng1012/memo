@@ -2,14 +2,15 @@
 
 1. 查看防火墙状态：
 
-		/etc/init.d/iptables status
+		service iptables status  
 
 2. 即时生效，重启后失效
 
 		开启： service iptables start
 	
 		关闭： service iptables stop
-			  	/etc/init.d/iptables stop
+		
+		重启： service iptables restart
 
 3. 重启后失效
 
@@ -30,10 +31,6 @@
  
 		/sbin/chkconfig --level 2345 iptables off
 
-6. 重启
-
-		/etc/init.d/iptables restart
-
 ## firewall-cmd
 
 - 安装  
@@ -42,13 +39,13 @@
 
 - 开启关闭
 	
-		开启服务systemctl start firewalld.service
+		开启服务 systemctl start firewalld.service
 		
-		关闭防火墙systemctl stop firewalld.service
+		关闭防火墙 systemctl stop firewalld.service
 		
-		开机自动启动systemctl enable firewalld.service
+		开机自动启动 systemctl enable firewalld.service
 		
-		关闭开机制动启动systemctl disable firewalld.service
+		关闭开机制动启动 systemctl disable firewalld.service
 	
 ### 使用firewall-cmd 命令
 
