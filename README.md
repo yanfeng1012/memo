@@ -319,6 +319,7 @@
 
 ## The software designer
 
+- [网关协议](https://blog.csdn.net/m0_37609579/article/details/103172082)
 - [UML九种图](https://zhuanlan.zhihu.com/p/44518805)
 - [机器数编码](/Inc/softexam/machine_code.md)
 - [PV](/Inc/softexam/pv.md)
