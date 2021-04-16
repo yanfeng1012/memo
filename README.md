@@ -275,6 +275,7 @@
 
 ## z7z8
 
+- [shell grep匹配 + wc取值 结果不一致](https://blog.csdn.net/shadow_zed/article/details/103838160)
 - [winsw 注册服务](https://www.jianshu.com/p/fc9e4ea61e13)
 - [Mac 所有程序无法打开](https://blog.csdn.net/sdfsdfasfddsafwesd/article/details/109157900)
 - [xunsearch](/Inc/xunsearch/xunsearch.md)
