@@ -1,5 +1,15 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
+## Java
+
+- [aop](https://wangmaoxiong.blog.csdn.net/article/details/108164388)
+- [ByteBuffer](https://blog.csdn.net/u012345283/article/details/38357851)
+- [Spring 注解大全](https://www.cnblogs.com/nhdlb/p/12451728.html)
+- [菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
+- [继承](https://www.runoob.com/java/java-inheritance.html)
+- [abstract](https://blog.csdn.net/weixin_40096176/article/details/79094991)
+- [SpringBoot](http://c.biancheng.net/spring_boot/)
+
 ## openlayers
 
 - [点聚合](https://blog.csdn.net/qq_36120342/article/details/108752068)
@@ -195,15 +205,6 @@
 
 - [菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)
 - [函数](https://www.runoob.com/cprogramming/c-functions.html)
-
-## Java
-
-- [ByteBuffer](https://blog.csdn.net/u012345283/article/details/38357851)
-- [Spring 注解大全](https://www.cnblogs.com/nhdlb/p/12451728.html)
-- [菜鸟教程](https://www.runoob.com/java/java-tutorial.html)
-- [继承](https://www.runoob.com/java/java-inheritance.html)
-- [abstract](https://blog.csdn.net/weixin_40096176/article/details/79094991)
-- [SpringBoot](http://c.biancheng.net/spring_boot/)
 
 ## ES6
 - [菜鸟教程](https://www.runoob.com/w3cnote/es6-tutorial.html)
