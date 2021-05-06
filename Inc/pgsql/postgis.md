@@ -316,132 +316,307 @@
 - A=B 
 
 		A ~= B 
-- A范围被B范围包含 A @ B 
-- A范围包含B范围 A ~ B 
-- A范围覆盖B范围 A && B
+		
+- A范围被B范围包含 
+
+		A @ B 
+		
+- A范围包含B范围 
+
+		A ~ B 
+		
+- A范围覆盖B范围 
+
+		A && B
 
 ### 几何量测函数：
-量测面积 ST_Area(geometry) 
-根据经纬度点计算在地球曲面上的距离，单位米，地球半径取值6370986米 ST_distance_sphere(point, point) 
-类似上，使用指定的地球椭球参数 ST_distance_spheroid(point, point, spheroid) 
-量测2D对象长度 ST_length2d(geometry) 
-量测3D对象长度 ST_length3d(geometry) 
-根据经纬度对象计算在地球曲面上的长度 ST_length_spheroid(geometry,spheroid) 
-ST_length3d_spheroid(geometry,spheroid) 
-量测两个对象间距离 ST_distance(geometry, geometry) 
-量测两条线之间的最大距离 ST_max_distance(linestring,linestring) 
-量测2D对象的周长 ST_perimeter(geometry) 
-ST_perimeter2d(geometry) 
-量测3D对象的周长 ST_perimeter3d(geometry) 
-量测两点构成的方位角，单位弧度 ST_azimuth(geometry, geometry)
+
+- 量测面积 
+
+		ST_Area(geometry) 
+		
+- 根据经纬度点计算在地球曲面上的距离，单位米，地球半径取值6370986米 
+
+		ST_distance_sphere(point, point) 
+		
+- 类似上，使用指定的地球椭球参数 
+
+		ST_distance_spheroid(point, point, spheroid) 
+		
+- 量测2D对象长度 
+
+		ST_length2d(geometry) 
+		
+- 量测3D对象长度 
+
+		ST_length3d(geometry) 
+		
+- 根据经纬度对象计算在地球曲面上的长度 
+
+		ST_length_spheroid(geometry,spheroid) 
+		
+- 量测两个对象间距离 
+
+		ST_distance(geometry, geometry) 
+		
+- 量测两条线之间的最大距离 
+
+		ST_max_distance(linestring,linestring) 
+		
+- 量测2D对象的周长 
+
+		ST_perimeter(geometry) 
+		ST_perimeter2d(geometry) 
+		
+- 量测3D对象的周长 
+
+		ST_perimeter3d(geometry) 
+		
+- 量测两点构成的方位角，单位弧度 
+
+		ST_azimuth(geometry, geometry)
 
 ### 几何对象输出： 
-参考语义： 
-NDR：Little Endian 
-XDR：big-endian 
-HEXEWKB：Canonical 
-SVG：SVG 格式 
-GML：GML 格式 
-KML：KML 格式 
-GeoJson：GeoJson 格式
+> 参考语义： 
+> 
+> NDR：Little Endian 
+> 
+> XDR：big-endian 
+> 
+> HEXEWKB：Canonical 
+> 
+> SVG：SVG 格式 
+> 
+> GML：GML 格式 
+> 
+> KML：KML 格式 
+> 
+> GeoJson：GeoJson 格式
 
-ST_AsBinary(geometry,{‘NDR’|’XDR’}) 
-ST_AsEWKT(geometry) 
-ST_AsEWKB(geometry, {‘NDR’|’XDR’}) 
-ST_AsHEXEWKB(geometry, {‘NDR’|’XDR’}) 
-ST_AsSVG(geometry, [rel], [precision]) 
-ST_AsGML([version], geometry, [precision]) 
-ST_AsKML([version], geometry, [precision]) 
-ST_AsGeoJson([version], geometry, [precision], [options])
+- ST_AsBinary(geometry,{‘NDR’|’XDR’}) 
+- ST_AsEWKT(geometry) 
+- ST_AsEWKB(geometry, {‘NDR’|’XDR’}) 
+- ST_AsHEXEWKB(geometry, {‘NDR’|’XDR’}) 
+- ST_AsSVG(geometry, [rel], [precision]) 
+- ST_AsGML([version], geometry, [precision]) 
+- ST_AsKML([version], geometry, [precision]) 
+- ST_AsGeoJson([version], geometry, [precision], [options])
 
 ### 几何对象创建：
-参考语义： 
-Dump：转储 ST_GeomFromEWKT(text)
 
-ST_GeomFromEWKB(bytea) 
-ST_MakePoint(, , [], []) 
-ST_MakePointM(, , ) 
-ST_MakeBox2D(, ) 
-ST_MakeBox3D(, ) 
-ST_MakeLine(geometry set) 
-ST_MakeLine(geometry, geometry) 
-ST_LineFromMultiPoint(multipoint) 
-ST_MakePolygon(linestring, [linestring[]]) 
-ST_BuildArea(geometry) 
-ST_Polygonize(geometry set) 
-ST_Collect(geometry set) 
-ST_Collect(geometry, geometry) 
-ST_Dump(geometry) 
-ST_DumpRings(geometry)
+> 参考语义： 
+> 
+> Dump：转储 ST_GeomFromEWKT(text)
+
+- ST_GeomFromEWKB(bytea) 
+- ST_MakePoint(, , [], []) 
+- ST_MakePointM(, , ) 
+- ST_MakeBox2D(, ) 
+- ST_MakeBox3D(, ) 
+- ST_MakeLine(geometry set) 
+- ST_MakeLine(geometry, geometry) 
+- ST_LineFromMultiPoint(multipoint) 
+- ST_MakePolygon(linestring, [linestring[]]) 
+- ST_BuildArea(geometry) 
+- ST_Polygonize(geometry set) 
+- ST_Collect(geometry set) 
+- ST_Collect(geometry, geometry) 
+- ST_Dump(geometry) 
+- ST_DumpRings(geometry)
 
 ### 几何对象编辑：
-给几何对象添加一个边界，会使查询速度加快 ST_AddBBOX(geometry) 
-删除几何对象的边界 ST_DropBBOX(geometry) 
-添加、删除、设置点 ST_AddPoint(linestring, point, []) 
-ST_RemovePoint(linestring, offset) 
-ST_SetPoint(linestring, N, point) 
-几何对象类型转换 ST_Force_collection(geometry) 
-ST_Force_2d(geometry) 
-ST_Force_3dz(geometry), ST_Force_3d(geometry), 
-ST_Force_3dm(geometry) 
-ST_Force_4d(geometry) 
-ST_Multi(geometry) 
-将几何对象转化到指定空间参考 ST_Transform(geometry,integer) 
-对3D几何对象作仿射变化 ST_Affine(geometry, float8, float8, float8, float8, float8, float8, float8, float8, float8, float8, float8, float8) 
-对2D几何对象作仿射变化 ST_Affine(geometry, float8, float8, float8, float8, float8, float8) 
-对几何对象作偏移 ST_Translate(geometry, float8, float8, float8) 
-对几何对象作缩放 ST_Scale(geometry, float8, float8, float8) 
-对3D几何对象作旋转 ST_RotateZ(geometry, float8) 
-ST_RotateX(geometry, float8) 
-ST_RotateY(geometry, float8) 
-对2D对象作偏移和缩放 ST_TransScale(geometry, float8, float8, float8, float8) 
-反转 ST_Reverse(geometry) 
-转化到右手定则 ST_ForceRHR(geometry) 
-参考IsSimple函数 
-使用Douglas-Peuker算法 ST_Simplify(geometry, tolerance) 
-ST_SimplifyPreserveTopology(geometry, tolerance) 
-讲几何对象顶点捕捉到网格 ST_SnapToGrid(geometry, originX, originY, sizeX, sizeY) 
-ST_SnapToGrid(geometry, sizeX, sizeY), ST_SnapToGrid(geometry, size) 
-第二个参数为点，指定原点坐标 ST_SnapToGrid(geometry, geometry, sizeX, sizeY, sizeZ, sizeM) 
-分段 ST_Segmentize(geometry, maxlength) 
-合并为线 ST_LineMerge(geometry)
+
+- 给几何对象添加一个边界，会使查询速度加快 
+
+		ST_AddBBOX(geometry) 
+		
+- 删除几何对象的边界 
+
+		ST_DropBBOX(geometry) 
+		
+- 添加、删除、设置点 
+
+		ST_AddPoint(linestring, point, []) 
+		ST_RemovePoint(linestring, offset) 
+		ST_SetPoint(linestring, N, point) 
+		
+- 几何对象类型转换 
+
+		ST_Force_collection(geometry) 
+		ST_Force_2d(geometry) 
+		ST_Force_3dz(geometry), ST_Force_3d(geometry), 
+		ST_Force_3dm(geometry) 
+		ST_Force_4d(geometry) 
+		ST_Multi(geometry) 
+		
+- 将几何对象转化到指定空间参考 
+
+		ST_Transform(geometry,integer) 
+		
+- 对3D几何对象作仿射变化 
+
+		ST_Affine(geometry, float8, float8, float8, float8, float8, float8, float8, float8, float8, float8, float8, float8) 
+		
+- 对2D几何对象作仿射变化 
+
+		ST_Affine(geometry, float8, float8, float8, float8, float8, float8) 
+		
+- 对几何对象作偏移 
+
+		ST_Translate(geometry, float8, float8, float8) 
+		
+- 对几何对象作缩放 
+
+		ST_Scale(geometry, float8, float8, float8) 
+		
+- 对3D几何对象作旋转 
+
+		ST_RotateZ(geometry, float8) 
+		ST_RotateX(geometry, float8) 
+		ST_RotateY(geometry, float8) 
+		
+- 对2D对象作偏移和缩放 
+
+		ST_TransScale(geometry, float8, float8, float8, float8) 
+		
+- 反转 
+
+		ST_Reverse(geometry) 
+		
+- 转化到右手定则 
+
+		ST_ForceRHR(geometry) 
+		
+> 参考IsSimple函数 
+
+- 使用Douglas-Peuker算法
+
+		ST_Simplify(geometry, tolerance) 
+		ST_SimplifyPreserveTopology(geometry, tolerance) 
+		
+- 将几何对象顶点捕捉到网格 
+
+		ST_SnapToGrid(geometry, originX, originY, sizeX, sizeY) 
+		ST_SnapToGrid(geometry, sizeX, sizeY), ST_SnapToGrid(geometry, size) 
+		
+- 第二个参数为点，指定原点坐标 
+
+		ST_SnapToGrid(geometry, geometry, sizeX, sizeY, sizeZ, sizeM) 
+		
+- 分段 
+
+		ST_Segmentize(geometry, maxlength) 
+		
+- 合并为线 
+
+		ST_LineMerge(geometry)
 
 ### 线性参考：
-根据location（0-1）获得该位置的点 ST_line_interpolate_point(linestring, location) 
-获取一段线 ST_line_substring(linestring, start, end) 
-根据点获取location（0-1） ST_line_locate_point(LineString, Point) 
-根据量测值获得几何对象 ST_locate_along_measure(geometry, float8) 
-根据量测值区间获得几何对象集合 ST_locate_between_measures(geometry, float8, float8)
 
-### 杂项功能函数： 
-几何对象的摘要 ST_Summary(geometry) 
-几何对象的边界 ST_box2d(geometry) 
-ST_box3d(geometry) 
-多个几何对象的边界 ST_extent(geometry set) 
-0=2d, 1=3dm, 2=3dz, 3=4d ST_zmflag(geometry) 
-是否包含Bounding Box ST_HasBBOX(geometry) 
-几何对象的维数：2、3、4 ST_ndims(geometry) 
-子对象的个数 ST_nrings(geometry) 
-ST_npoints(geometry) 
-对象是否验证成功 ST_isvalid(geometry) 
-扩大几何对象 ST_expand(geometry, float) 
-计算一个空间表的边界范围 ST_estimated_extent([schema], table, geocolumn) 
-获得空间参考 ST_find_srid(, , ) 
-几何对象使用的内存大小，单位byte ST_mem_size(geometry) 
-点是否在圆上 ST_point_inside_circle(,,,) 
-获取边界的X、Y、Z ST_XMin(box3d) 
-ST_YMin(box3d) 
-ST_ZMin(box3d) 
-ST_XMax(box3d) 
-ST_YMax(box3d) 
-ST_ZMax(box3d) 
-构造一个几何对象的数组 ST_Accum(geometry set)
+- 根据location（0-1）获得该位置的点 
 
-### 长事务支持： 
-启用/关闭长事务支持，重复调用无副作用 EnableLongTransactions() 
-DisableLongTransactions() 
-检查对行的update和delete操作是否已授权 CheckAuth([], 
-, ) 
-锁定行 LockRow([], , , , []) 
-解锁行 UnlockRows() 
-在当前事务中添加授权ID AddAuth()
+		ST_line_interpolate_point(linestring, location) 
+		
+- 获取一段线 
+
+		ST_line_substring(linestring, start, end) 
+		
+- 根据点获取location（0-1） 
+
+		ST_line_locate_point(LineString, Point) 
+		
+- 根据量测值获得几何对象 
+
+		ST_locate_along_measure(geometry, float8) 
+		
+- 根据量测值区间获得几何对象集合 
+
+		ST_locate_between_measures(geometry, float8, float8)
+
+### 杂项功能函数：
+ 
+- 几何对象的摘要 
+
+		ST_Summary(geometry) 
+		
+- 几何对象的边界 
+
+		ST_box2d(geometry) 
+		ST_box3d(geometry) 
+		
+- 多个几何对象的边界 
+
+		ST_extent(geometry set) 
+		0=2d, 1=3dm, 2=3dz, 3=4d ST_zmflag(geometry) 
+		
+- 是否包含Bounding Box 
+
+		ST_HasBBOX(geometry) 
+		
+- 几何对象的维数：2、3、4 
+
+		ST_ndims(geometry) 
+		
+- 子对象的个数 
+
+		ST_nrings(geometry) 
+		ST_npoints(geometry) 
+		
+- 对象是否验证成功 
+
+		ST_isvalid(geometry) 
+		
+- 扩大几何对象 
+
+		ST_expand(geometry, float) 
+		
+- 计算一个空间表的边界范围 
+
+		ST_estimated_extent([schema], table, geocolumn) 
+		
+- 获得空间参考 
+
+		ST_find_srid(, , ) 
+		
+- 几何对象使用的内存大小，单位byte 
+
+		ST_mem_size(geometry) 
+		
+- 点是否在圆上 
+
+		ST_point_inside_circle(,,,) 
+		
+- 获取边界的X、Y、Z 
+
+		ST_XMin(box3d) 
+		ST_YMin(box3d) 
+		ST_ZMin(box3d) 
+		ST_XMax(box3d) 
+		ST_YMax(box3d) 
+		ST_ZMax(box3d) 
+		
+- 构造一个几何对象的数组 
+
+		ST_Accum(geometry set)
+
+### 长事务支持：
+- 启用/关闭长事务支持，重复调用无副作用 
+
+		EnableLongTransactions() 
+		DisableLongTransactions() 
+		
+- 检查对行的update和delete操作是否已授权 
+
+		CheckAuth([], , ) 
+		
+- 锁定行 
+
+		LockRow([], , , , []) 
+		
+- 解锁行 
+
+		UnlockRows() 
+		
+- 在当前事务中添加授权ID 
+
+		AddAuth()
