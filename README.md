@@ -181,6 +181,7 @@
 - [Doctrine querybuilder limit and offset](/Inc/symfony/limit_offset.md)
 - [Doctrine JOIN](/Inc/symfony/join.md)
 - [Doctrine Cache Result](/Inc/doctrine/cacheResult.md)
+- [doctrine 逆向工程](/Inc/doctrine/table_to_entity.md)
 
 ## twig 
 
@@ -276,6 +277,7 @@
 - [完整数据库备份](https://docs.microsoft.com/zh-cn/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver15)
 
 ## z7z8
+- [安装tesseract-ocr4.0](/Inc/others/tesseract-ocr4.0.md)
 - [Eclipse 常用快捷键](https://www.cnblogs.com/xubaoaichiyu/p/5846142.html)
 - [shell grep匹配 + wc取值 结果不一致](https://blog.csdn.net/shadow_zed/article/details/103838160)
 - [winsw 注册服务](https://www.jianshu.com/p/fc9e4ea61e13)
