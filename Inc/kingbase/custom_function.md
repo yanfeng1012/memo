@@ -1,5 +1,9 @@
 ## 自定义函数
 
+### group by 
+	修改kingbase.conf 增加
+	sql_mode=''
+
 ### date_format
 
 	CREATE OR REPLACE FUNCTION date_format(indate anyelement, intext text)
@@ -26,7 +30,18 @@
 		return '';
 	END;
 	$function$
-		
+	
+### find_in_set
+
+	CREATE OR REPLACE INTERNAL FUNCTION PUBLIC.FIND_IN_SET( CHARACTER VARYING, CHARACTER VARYING ) 
+		RETURNS CHARACTER VARYING LANGUAGE PLSQL IMMUTABLE STRICT AS $FUNCTION$ 
+	DECLARE
+		tokens VARCHAR [];
+	BEGIN
+		tokens := sys_catalog.string_to_array ( $2, ',' );
+		RETURN ISNULL( sys_catalog.array_position ( tokens, $1 ), 0 )> 0;
+	END;
+	$FUNCTION$;
 
 
 
