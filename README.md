@@ -26,7 +26,8 @@
 
 ## 人大金仓
 
-- [kingbase](/Inc/kylin/kingbase.md)
+- [kingbase](/Inc/kingbase/kingbase.md)
+- [自定义函数](/Inc/kingbase/custom_function.md)
 
 ## C++
 
