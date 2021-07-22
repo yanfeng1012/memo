@@ -31,7 +31,7 @@
 	END;
 	$function$
 	
-### find_in_set
+### `find_in_set`
 
 	CREATE OR REPLACE INTERNAL FUNCTION PUBLIC.FIND_IN_SET( CHARACTER VARYING, CHARACTER VARYING ) 
 		RETURNS CHARACTER VARYING LANGUAGE PLSQL IMMUTABLE STRICT AS $FUNCTION$ 
@@ -44,5 +44,17 @@
 	$FUNCTION$;
 
 
+### UNIX_TIMESTAMP
 
+	CREATE FUNCTION unix_timestamp() 
+		RETURNS integer AS $$
+		SELECT (date_part(’epoch’,now()))::integer;
+	$$ LANGUAGE SQL IMMUTABLE;
+	
+### from_unixtime()
+
+	CREATE FUNCTION from_unixtime(int) 
+		RETURNS timestamp AS $$
+		SELECT to_timestamp($1)::timestamp;
+	$$ LANGUAGE SQL IMMUTABLE;
 	

@@ -278,6 +278,7 @@
 - [完整数据库备份](https://docs.microsoft.com/zh-cn/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver15)
 
 ## z7z8
+- [macos ** to github.com:443](https://blog.csdn.net/w5688414/article/details/99816109)
 - [安装tesseract-ocr4.0](/Inc/others/tesseract-ocr4.0.md)
 - [Eclipse 常用快捷键](https://www.cnblogs.com/xubaoaichiyu/p/5846142.html)
 - [shell grep匹配 + wc取值 结果不一致](https://blog.csdn.net/shadow_zed/article/details/103838160)
