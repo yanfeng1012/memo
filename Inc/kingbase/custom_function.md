@@ -1,8 +1,11 @@
 ## 自定义函数
 
-### group by 
+### kingbase.conf修改
 	修改kingbase.conf 增加
 	sql_mode=''
+
+	字符字节修改为字符
+	char_default_type='char'
 
 ### date_format
 
@@ -60,7 +63,6 @@
 	
 ### from_unixtime()
 
-	CREATE OR REPLACE FUNCTION date_format(inInt INTEGER, intext text)
-	 	RETURNS text LANGUAGE sql AS $function$		BEGIN			IF upper(inText) = upper('%Y%m%d_%H%i') THEN				return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDD_HH24MI');			END IF;			IF upper(inText) = upper('%Y%m%d%H%i%s') THEN				return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDDHH24MISS');			END IF;			IF upper(inText) = upper('%Y-%m-%d %H') THEN				return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD HH24');			END IF;			IF upper(inText) = upper('%Y-%m-%d') THEN				return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD');			END IF;			IF upper(inText) = upper('%Y-%m') THEN				return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM');			END IF;			IF upper(inText) = upper('%m%d') THEN				return to_char(to_timestamp(inInt)::timestamp,'MMDD');			END IF;			return '';		END
-		$function$
-	
+	CREATE FUNCTION from_unixtime(inInt INTEGER,inText TEXT) RETURNS text LANGUAGE PLSQL
+	AS $function$ BEGIN	IF upper(inText) = upper('%Y%m%d_%H%i') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDD_HH24MI');	END IF;	IF upper(inText) = upper('%Y%m%d%H%i%s') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDDHH24MISS');	END IF;	IF upper(inText) = upper('%Y-%m-%d %H') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD HH24');	END IF;	IF upper(inText) = upper('%Y-%m-%d') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD');	END IF;	IF upper(inText) = upper('%Y-%m') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM');	end if;	IF upper(inText) = upper('%m%d') THEN		return to_char(to_timestamp(inInt)::timestamp,'MMDD');	END IF;	return '';	END;
+	$function$;
