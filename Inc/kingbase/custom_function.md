@@ -11,9 +11,7 @@
 
 	CREATE OR REPLACE FUNCTION date_format(indate anyelement, intext text)
 	 	RETURNS text LANGUAGE sql AS $function$
-	BEGIN
-		AS 
-	BEGIN
+	BEGIN AS 
 	IF upper(inText) = upper('%Y%m%d_%H%i') THEN
 	return to_char(inDate,'YYYYMMDD_HH24MI');
 	END IF;
