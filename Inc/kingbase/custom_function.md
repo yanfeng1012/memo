@@ -7,6 +7,14 @@
 	字符字节修改为字符
 	char_default_type='char'
 
+### 查看集群节点
+
+	ksql -USYSTEM -WHuawei-12 -p 9999 test -c "show pool_nodes"
+	
+### 断开所有链接
+
+	SELECT sys_terminate_backend(sys_stat_activity.pid) FROM sys_stat_activity WHERE datname='数据库名' AND pid<>sys_backend_pid();
+
 ### date_format
 
 	CREATE OR REPLACE FUNCTION date_format(indate anyelement, intext text)
