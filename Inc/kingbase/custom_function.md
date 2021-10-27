@@ -7,41 +7,33 @@
 	字符字节修改为字符
 	char_default_type='char'
 
-### 查看集群节点
-
-	ksql -USYSTEM -WHuawei-12 -p 9999 test -c "show pool_nodes"
-	
-### 断开所有链接
-
-	SELECT sys_terminate_backend(sys_stat_activity.pid) FROM sys_stat_activity WHERE datname='数据库名' AND pid<>sys_backend_pid();
-
 ### date_format
 
 	CREATE OR REPLACE FUNCTION date_format(indate anyelement, intext text)
 	 	RETURNS text LANGUAGE sql AS $function$
-	BEGIN AS 
-	IF upper(inText) = upper('%Y%m%d_%H%i') THEN
-	return to_char(inDate,'YYYYMMDD_HH24MI');
-	END IF;
-	IF upper(inText) = upper('%Y%m%d%H%i%s') THEN
-	return to_char(inDate,'YYYYMMDDHH24MISS');
-	END IF;
-	IF upper(inText) = upper('%Y-%m-%d %H') THEN
-	return to_char(inDate,'YYYY-MM-DD HH24');
-	END IF;
-	IF upper(inText) = upper('%Y-%m-%d') THEN
-	return to_char(inDate,'YYYY-MM-DD');
-	END IF;
-	IF upper(inText) = upper('%Y-%m') THEN
-	return to_char(inDate,'YYYY-MM');
-	end if;
-	IF upper(inText) = upper('%m%d') THEN
-	return to_char(inDate,'MMDD');
-	END IF;
-	IF upper(inText) = upper('%Y-%m-%d %H:%i') THEN
-	return to_char(inDate,'YYYY-MM-DD HH24:MI');
-	END IF;
-	return '';
+	BEGIN
+		IF upper(inText) = upper('%Y%m%d_%H%i') THEN
+			return to_char(inDate,'YYYYMMDD_HH24MI');
+		END IF;
+		IF upper(inText) = upper('%Y%m%d%H%i%s') THEN
+			return to_char(inDate,'YYYYMMDDHH24MISS');
+		END IF;
+		IF upper(inText) = upper('%Y-%m-%d %H') THEN
+			return to_char(inDate,'YYYY-MM-DD HH24');
+		END IF;
+		IF upper(inText) = upper('%Y-%m-%d') THEN
+			return to_char(inDate,'YYYY-MM-DD');
+		END IF;
+		IF upper(inText) = upper('%Y-%m') THEN
+			return to_char(inDate,'YYYY-MM');
+		end if;
+		IF upper(inText) = upper('%m%d') THEN
+			return to_char(inDate,'MMDD');
+		END IF;
+		IF upper(inText) = upper('%Y-%m-%d %H:%i') THEN
+			return to_char(inDate,'YYYY-MM-DD HH24:MI');
+		END IF;
+		return '';
 	END;
 	$function$;
 	
@@ -75,25 +67,5 @@
 ### from_unixtime()
 
 	CREATE FUNCTION from_unixtime(inInt INTEGER,inText TEXT) RETURNS text LANGUAGE PLSQL
-	AS $function$ BEGIN
-	IF upper(inText) = upper('%Y%m%d_%H%i') THEN
-		return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDD_HH24MI');
-	END IF;
-	IF upper(inText) = upper('%Y%m%d%H%i%s') THEN
-		return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDDHH24MISS');
-	END IF;
-	IF upper(inText) = upper('%Y-%m-%d %H') THEN
-		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD HH24');
-	END IF;
-	IF upper(inText) = upper('%Y-%m-%d') THEN
-		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD');
-	END IF;
-	IF upper(inText) = upper('%Y-%m') THEN
-		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM');
-	end if;
-	IF upper(inText) = upper('%m%d') THEN
-		return to_char(to_timestamp(inInt)::timestamp,'MMDD');
-	END IF;
-	return '';
-	END;
+	AS $function$ BEGIN	IF upper(inText) = upper('%Y%m%d_%H%i') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDD_HH24MI');	END IF;	IF upper(inText) = upper('%Y%m%d%H%i%s') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYYMMDDHH24MISS');	END IF;	IF upper(inText) = upper('%Y-%m-%d %H') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD HH24');	END IF;	IF upper(inText) = upper('%Y-%m-%d') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM-DD');	END IF;	IF upper(inText) = upper('%Y-%m') THEN		return to_char(to_timestamp(inInt)::timestamp,'YYYY-MM');	end if;	IF upper(inText) = upper('%m%d') THEN		return to_char(to_timestamp(inInt)::timestamp,'MMDD');	END IF;	return '';	END;
 	$function$;
