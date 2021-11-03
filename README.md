@@ -56,6 +56,7 @@
 
 ## [linux](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
+ - [dd 读写测速](/Inc/linux/dd.md)
  - [aliyun centos yum 错误解决办法](https://lanyes.org/rizhi/947.html)
  - [rm 输入/输出错误](https://blog.csdn.net/qq_40801599/article/details/84590070)
  - [centos 升级 gcc](https://blog.csdn.net/csdn18740599042/article/details/108951385)
