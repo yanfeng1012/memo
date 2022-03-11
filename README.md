@@ -330,6 +330,7 @@
 
 ## The software designer
 
+- [活动图计算](https://www.cnblogs.com/haishashou/p/9817184.html)
 - [网关协议](https://blog.csdn.net/m0_37609579/article/details/103172082)
 - [UML九种图](https://blog.csdn.net/luckystar_99/article/details/80152209)
 - [机器数编码](/Inc/softexam/machine_code.md)
