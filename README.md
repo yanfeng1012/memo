@@ -1,5 +1,33 @@
 # My Memo :earth_asia: :cn: :thumbsup:
 
+## C++
+
+- [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
+- [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
+- [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
+- [cmake](https://www.jianshu.com/p/528eeb266f83)
+- [C++11 之 override](https://www.cnblogs.com/xinxue/p/5471708.html)
+- [CMake语法](https://www.jianshu.com/p/528eeb266f83)
+- [C++ explicit关键字详解](https://blog.csdn.net/guoyunfei123/article/details/89003369)
+- [C++中的抽象类和接口类](https://www.cnblogs.com/Stephen-Qin/p/12436180.html)
+- [C++中的friend详细解析](https://blog.csdn.net/u012861978/article/details/52095607)
+- [C++11中=delete的巧妙用法](https://blog.csdn.net/whahu1989/article/details/90648536)
+- [C++ #pragma 用法详解](https://blog.csdn.net/weixin_38218095/article/details/96479280)
+- [C++智能指针、悬垂指针、哑指针、野指针](https://blog.csdn.net/cherish_2012/article/details/42091473?utm_source=blogkpcl6)
+- [详解C++中Lambda的用法](https://blog.csdn.net/weixin_43705195/article/details/120229957)
+
+## QT
+
+- [快速入门教程](http://shouce.jb51.net/qt-beginning)
+- [qt openGL 教程](https://qiliang.net/old/nehe_qt/)
+- [QT教程](http://c.biancheng.net/qt/)
+- [C/C++ Qt 常用数据结构](https://www.cnblogs.com/LyShark/p/13996926.html)
+- [QT之Http请求](https://www.cnblogs.com/xupeidong/p/9506739.html)
+- [QT中connect的几种简单用法](https://blog.csdn.net/weixin_46338291/article/details/123531244)
+- [Q_UNUSED(name)的用法](https://blog.csdn.net/weixin_39568531/article/details/79174582)
+- [QT中foreach的使用](https://www.cnblogs.com/lomper/p/3959771.html)
+- [Qt窗体之间相互传值的三种方式](https://blog.csdn.net/zbw1185/article/details/48519371)
+
 ## Java
 
 - [aop](https://wangmaoxiong.blog.csdn.net/article/details/108164388)
@@ -28,21 +56,6 @@
 
 - [kingbase](/Inc/kingbase/kingbase.md)
 - [自定义函数](/Inc/kingbase/custom_function.md)
-
-## C++
-
-- [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
-- [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
-- [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
-- [cmake](https://www.jianshu.com/p/528eeb266f83)
-- [C++11 之 override](https://www.cnblogs.com/xinxue/p/5471708.html)
-- [CMake语法](https://www.jianshu.com/p/528eeb266f83)
-
-## QT
-
-- [快速入门教程](http://shouce.jb51.net/qt-beginning)
-- [qt openGL 教程](https://qiliang.net/old/nehe_qt/)
-- [QT教程](http://c.biancheng.net/qt/)
 
 ## uni-app
 
