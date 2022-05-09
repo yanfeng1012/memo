@@ -27,7 +27,7 @@
 - [Q_UNUSED(name)的用法](https://blog.csdn.net/weixin_39568531/article/details/79174582)
 - [QT中foreach的使用](https://www.cnblogs.com/lomper/p/3959771.html)
 - [Qt窗体之间相互传值的三种方式](https://blog.csdn.net/zbw1185/article/details/48519371)
-
+- [事件过滤器](https://blog.csdn.net/cpp_learner/article/details/115026984)
 ## Java
 
 - [aop](https://wangmaoxiong.blog.csdn.net/article/details/108164388)
