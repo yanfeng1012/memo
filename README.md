@@ -1,8 +1,12 @@
-# My Memo :earth_asia: :cn: :thumbsup:
+# 备忘录 :earth_asia: :cn: :thumbsup:
+
+## C
+
+- [菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)
+- [函数](https://www.runoob.com/cprogramming/c-functions.html)
 
 ## C++
 
-- [菜鸟教程](https://www.runoob.com/cplusplus/cpp-numbers.html)
 - [Virtual 虚函数](https://www.cnblogs.com/weiyouqing/p/7544988.html)
 - [C++数值后缀](https://blog.csdn.net/qq_38282836/article/details/81709223)
 - [cmake](https://www.jianshu.com/p/528eeb266f83)
@@ -28,6 +32,8 @@
 - [QT中foreach的使用](https://www.cnblogs.com/lomper/p/3959771.html)
 - [Qt窗体之间相互传值的三种方式](https://blog.csdn.net/zbw1185/article/details/48519371)
 - [事件过滤器](https://blog.csdn.net/cpp_learner/article/details/115026984)
+- [QT事件](https://blog.csdn.net/qq_54395977/article/details/122659644)
+
 ## Java
 
 - [aop](https://wangmaoxiong.blog.csdn.net/article/details/108164388)
@@ -37,6 +43,40 @@
 - [继承](https://www.runoob.com/java/java-inheritance.html)
 - [abstract](https://blog.csdn.net/weixin_40096176/article/details/79094991)
 - [SpringBoot](http://c.biancheng.net/spring_boot/)
+
+## GO 
+
+- [strconv](/Inc/go/strconv.md) 
+- [golang import 导入包语法介绍](/Inc/go/import.md)
+- [beego orm](https://beego.me/docs/mvc/model/orm.md)
+- [beego 获取参数](https://beego.me/docs/mvc/controller/params.md)
+- [golang实现图片水印效果](https://studygolang.com/articles/673)
+- [golang 激活](https://studygolang.com/articles/25444?fr=sidebar)
+- [sockjs-go](https://github.com/igm/sockjs-go)
+- [beego toolbox](https://beego.me/docs/module/toolbox.md)
+- [beego httplib](https://beego.me/docs/module/httplib.md)
+- [go mod](https://segmentfault.com/a/1190000018536993)
+- [go 断言](https://studygolang.com/articles/3314)
+- [Go By Example](https://gobyexample-cn.github.io/)
+
+## PHP 
+
+- [PHP内置函数](https://www.php.net/manual/zh/indexes.functions.php)
+- [PHP 相关](/Inc/php/php.md)
+- [安装PHP7.3.6](/Inc/php/php/install7.3.6.md)
+- [php errors](/Inc/php/errors.md)
+- [PHP 协议详解](https://www.easyswoole.com/Cn/NoobCourse/introduction.html)
+- [PHP Excel](https://github.com/PHPOffice/PhpSpreadsheet)
+- [PHP declare](https://www.php.cn/php-weizijiaocheng-370428.html)
+- [PHP XSS](https://www.jb51.net/article/158303.htm)
+- **PHP7 新特性** [菜鸟教程](https://www.runoob.com/php/php7-new-features.html)  [CSDN](https://www.runoob.com/php/php7-new-features.html)
+- [stdClass](https://www.jb51.net/article/115487.htm)
+- [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
+- [php 数组排序](https://www.runoob.com/php/php-arrays-sort.html)
+- [隐藏PHP版本](https://www.jb51.net/article/67351.htm)
+- [php安装sqlsrv扩展](/Inc/symfony/sqlsrv.md)
+- [oci8 oracle连接扩展](/Inc/php/oci8.md)
+- [时间计算（解决闰年问题）](/Inc/php/diff_date.md)
 
 ## openlayers
 
@@ -144,25 +184,6 @@
 - [mysql view 视图](http://c.biancheng.net/view/2584.html)
 - [mysql 优化](https://blog.csdn.net/ki8qzvka6gz4n450m/article/details/88704142)
 
-## PHP 
-
-- [PHP内置函数](https://www.php.net/manual/zh/indexes.functions.php)
-- [PHP 相关](/Inc/php/php.md)
-- [安装PHP7.3.6](/Inc/php/php/install7.3.6.md)
-- [php errors](/Inc/php/errors.md)
-- [PHP 协议详解](https://www.easyswoole.com/Cn/NoobCourse/introduction.html)
-- [PHP Excel](https://github.com/PHPOffice/PhpSpreadsheet)
-- [PHP declare](https://www.php.cn/php-weizijiaocheng-370428.html)
-- [PHP XSS](https://www.jb51.net/article/158303.htm)
-- **PHP7 新特性** [菜鸟教程](https://www.runoob.com/php/php7-new-features.html)  [CSDN](https://www.runoob.com/php/php7-new-features.html)
-- [stdClass](https://www.jb51.net/article/115487.htm)
-- [mac 切换PHP版本](https://www.php.cn/php-weizijiaocheng-387734.html)
-- [php 数组排序](https://www.runoob.com/php/php-arrays-sort.html)
-- [隐藏PHP版本](https://www.jb51.net/article/67351.htm)
-- [php安装sqlsrv扩展](/Inc/symfony/sqlsrv.md)
-- [oci8 oracle连接扩展](/Inc/php/oci8.md)
-- [时间计算（解决闰年问题）](/Inc/php/diff_date.md)
-	 
 ## symfony 
 
 - [命令](/Inc/symfony/symfony.md)
@@ -201,26 +222,6 @@
 
 - [Twig](/Inc/Twig/twig.md)
 - [macro](/Inc/Twig/twigs/macro.md)
-
-## GO 
-
-- [strconv](/Inc/go/strconv.md) 
-- [golang import 导入包语法介绍](/Inc/go/import.md)
-- [beego orm](https://beego.me/docs/mvc/model/orm.md)
-- [beego 获取参数](https://beego.me/docs/mvc/controller/params.md)
-- [golang实现图片水印效果](https://studygolang.com/articles/673)
-- [golang 激活](https://studygolang.com/articles/25444?fr=sidebar)
-- [sockjs-go](https://github.com/igm/sockjs-go)
-- [beego toolbox](https://beego.me/docs/module/toolbox.md)
-- [beego httplib](https://beego.me/docs/module/httplib.md)
-- [go mod](https://segmentfault.com/a/1190000018536993)
-- [go 断言](https://studygolang.com/articles/3314)
-- [Go By Example](https://gobyexample-cn.github.io/)
-
-## C
-
-- [菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)
-- [函数](https://www.runoob.com/cprogramming/c-functions.html)
 
 ## ES6
 - [菜鸟教程](https://www.runoob.com/w3cnote/es6-tutorial.html)
@@ -291,7 +292,8 @@
 ## SQLSERVER
 - [完整数据库备份](https://docs.microsoft.com/zh-cn/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver15)
 
-## z7z8
+## 大杂烩
+
 - [macos ** to github.com:443](https://blog.csdn.net/w5688414/article/details/99816109)
 - [安装tesseract-ocr4.0](/Inc/others/tesseract-ocr4.0.md)
 - [Eclipse 常用快捷键](https://www.cnblogs.com/xubaoaichiyu/p/5846142.html)
