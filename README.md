@@ -21,7 +21,7 @@
 - [详解C++中Lambda的用法](https://blog.csdn.net/weixin_43705195/article/details/120229957)
 - [cmake-生成dll和lib](https://blog.csdn.net/qq_37792894/article/details/108627739)
 - [C++/WinRT](https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/)
--[通过 C++/WinRT 使用 COM 组件](https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/consume-com)
+- [通过 C++/WinRT 使用 COM 组件](https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/consume-com)
 
 ## QT
 
