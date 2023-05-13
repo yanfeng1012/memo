@@ -19,6 +19,9 @@
 - [C++ #pragma 用法详解](https://blog.csdn.net/weixin_38218095/article/details/96479280)
 - [C++智能指针、悬垂指针、哑指针、野指针](https://blog.csdn.net/cherish_2012/article/details/42091473?utm_source=blogkpcl6)
 - [详解C++中Lambda的用法](https://blog.csdn.net/weixin_43705195/article/details/120229957)
+- [cmake-生成dll和lib](https://blog.csdn.net/qq_37792894/article/details/108627739)
+- [C++/WinRT](https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/)
+-[通过 C++/WinRT 使用 COM 组件](https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/consume-com)
 
 ## QT
 
