@@ -46,6 +46,8 @@
 - [继承](https://www.runoob.com/java/java-inheritance.html)
 - [abstract](https://blog.csdn.net/weixin_40096176/article/details/79094991)
 - [SpringBoot](http://c.biancheng.net/spring_boot/)
+- [SpringBoot文件批量zip打包下载](https://blog.csdn.net/angellee1988/article/details/111241516)
+- [SpringBoot项目中定时任务删除时间大于30天的文件及文件夹](https://blog.csdn.net/riemann_/article/details/106221468)
 
 ## GO 
 
